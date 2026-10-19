@@ -1,0 +1,58 @@
+[
+ {
+  "authors": [
+   "Yuksekgonul M",
+   "Wang M",
+   "Zou J"
+  ],
+  "authors_complete": true,
+  "title": "Post-hoc Concept Bottleneck Models",
+  "journal": "International Conference on Learning Representations (ICLR 2023)",
+  "journal_abbrev": null,
+  "year": 2023,
+  "online_date": null,
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "doi": null,
+  "url_opened": [
+   "https://iclr.cc/virtual/2023/poster/11415",
+   "https://arxiv.org/abs/2205.15480"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Shows how to convert any trained network into a concept bottleneck model after the fact, with little loss of accuracy: concepts can be taken from other annotated datasets or, when no concept labels exist, from natural-language concept descriptions through a multimodal model. Because the resulting model can be edited globally at the concept level, users can remove reliance on spurious correlations; a user study found that such concept-level feedback improved performance without target-domain data or retraining.",
+  "use_for": "post hoc CBMs; concept-level model editing",
+  "verified_how": "ICLR 2023 virtual conference page (listed as a top 25% paper) + arXiv abstract page (v2, 1 Feb 2023)",
+  "flags": "Essential original (pre-2025). Kept out of theme_C.json only to keep that file at or above 85% 2025-2026 papers. OpenReview page could not be opened (browser verification), so no proceedings URL from OpenReview is recorded; ICLR has no volume or pages. Third author appears as 'James Y Zou' on the ICLR page and 'James Zou' on arXiv."
+ },
+ {
+  "authors": [
+   "Oikarinen T",
+   "Das S",
+   "Nguyen L",
+   "Weng TW"
+  ],
+  "authors_complete": true,
+  "title": "Label-free Concept Bottleneck Models",
+  "journal": "International Conference on Learning Representations (ICLR 2023)",
+  "journal_abbrev": null,
+  "year": 2023,
+  "online_date": null,
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "doi": null,
+  "url_opened": [
+   "https://iclr.cc/virtual/2023/poster/11326"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Proposes a pipeline that turns any neural network into a concept bottleneck model without concept-labelled data while keeping accuracy high, removing the need to collect labels for every predefined concept. The authors present it as the first CBM scaled to ImageNet, built in a few hours with minimal human effort for a new dataset.",
+  "use_for": "label-free CBMs (no concept annotations)",
+  "verified_how": "ICLR 2023 virtual conference page (in-person poster)",
+  "flags": "Essential original (pre-2025). Kept out of theme_C.json only to keep that file at or above 85% 2025-2026 papers. OpenReview page could not be opened (browser verification); the arXiv page was not opened. ICLR has no volume, pages or DOI. Title capitalization as shown on the ICLR page; third author shown there as 'Lam Nguyen'. The abstract on that page does not describe how concepts are generated."
+ }
+]

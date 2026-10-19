@@ -1,0 +1,163 @@
+[
+ {
+  "ref_no": 43,
+  "reference": "43. Böttcher B, van Assen M, Fari R, et al: Evaluation of a content-based image retrieval system for radiologists in high-resolution CT of interstitial lung diseases. Eur Radiol Exp 9:4, 2025. https://doi.org/10.1186/s41747-024-00539-w",
+  "claims_in_paper": [
+   "TABLE ROW: Böttcher et al. [43] | Interstitial lung disease diagnosis | 28 cases, three readers | Retrieved similar cases | Reader accuracy, confidence and time | Reader study",
+   "A reader study of a similar-case retrieval system for interstitial lung disease, with 28 cases and three readers, found that resident accuracy rose from 35.7% to 53.6%, a difference that was not statistically significant, while reading time fell from 104 to 54 seconds [43]."
+  ]
+ },
+ {
+  "ref_no": 44,
+  "reference": "44. Cohen JP, Blankemeier L, Chaudhari A: Explaining 3D Computed Tomography Classifiers with Counterfactuals. arXiv:2502.07156, 2025 (preprint). https://arxiv.org/abs/2502.07156",
+  "claims_in_paper": [
+   "TABLE ROW: Cohen et al. [44]^b | Pleural effusion and other classifiers | 399 test volumes | Counterfactual volumes | Change in classifier score | Quantitative",
+   "A preprint extends a latent-shift method to whole three-dimensional CT classifiers and reports that the mean pleural effusion score of 77 positive scans fell from 0.24 to 0.15 for their counterfactuals, with no clinical reader validation [44]."
+  ]
+ },
+ {
+  "ref_no": 45,
+  "reference": "45. Paolo D, Greco C, Ippolito E, et al: Predicting lung cancer survival with attention-based CT slices combination. Health Inf Sci Syst 14:20, 2026. https://doi.org/10.1007/s13755-025-00404-z",
+  "claims_in_paper": [
+   "TABLE ROW: Paolo et al. [45] | Survival in lung cancer | LUNG1, 422 patients, and a private cohort | Slice attention weights | Averaged weights and one case inspected | Examples only",
+   "In survival prediction for lung cancer, attention pooling over slices was not significantly better than average pooling, and the weights were inspected only qualitatively [45]."
+  ]
+ },
+ {
+  "ref_no": 46,
+  "reference": "46. Hu Z, Lin HM, Mathur S, et al: High performance with fewer labels using semi-weakly supervised learning for pulmonary embolism diagnosis. NPJ Digit Med 8:254, 2025. https://doi.org/10.1038/s41746-025-01594-2",
+  "claims_in_paper": [
+   "TABLE ROW: Hu et al. [46] | Pulmonary embolism | RSPECT, 6,958 training examinations | Grad-CAM | Example maps | Examples only",
+   "For pulmonary embolism, a model trained with about a quarter of the slice labels matched full supervision (AUC 0.928 against 0.932), but its explanations were limited to example Grad-CAM maps [46]."
+  ]
+ },
+ {
+  "ref_no": 47,
+  "reference": "47. Shui Z, Zhang J, Cao W, et al: Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding. Int Conf Learn Represent (ICLR), 2025. Available at https://iclr.cc/virtual/2025/poster/28403. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "TABLE ROW: Shui et al. [47] | Zero-shot diagnosis | 69,086 patients | Prediction tied to a named organ | None reported | Not stated",
+   "Aligning each anatomical region with the report sentences that describe it ties a prediction to a named organ [47]."
+  ]
+ },
+ {
+  "ref_no": 48,
+  "reference": "48. Chen Z, Bie Y, Jin H, Chen H: Large Language Model With Region-Guided Referring and Grounding for CT Report Generation. IEEE Trans Med Imaging 44:3139-3150, 2025. https://doi.org/10.1109/tmi.2025.3559923",
+  "claims_in_paper": [
+   "TABLE ROW: Chen et al. [48] | Report generation | RadGenome-ChestCT | Text tied to one of 10 regions | Region recognition score | Quantitative",
+   "Region-guided report generation writes the findings region by region for 10 anatomical regions; the authors report that recognition of the region was high for eight of them but low for lung and pleura, and that the method works at organ level and can miss or mislocate individual lesions [48]."
+  ]
+ },
+ {
+  "ref_no": 49,
+  "reference": "49. Di Piazza T, Lazarus C, Nempont O, Boussel L: CT-AGRG: Automated Abnormality-Guided Report Generation from 3D Chest CT Volumes. Proc IEEE Int Symp Biomed Imaging (ISBI), pp 1-5, 2025. https://doi.org/10.1109/isbi60581.2025.10981073",
+  "claims_in_paper": [
+   "TABLE ROW: Di Piazza et al. [49] | Report generation | CT-RATE | One sentence per predicted abnormality | None reported | Not stated",
+   "Generating one sentence for each predicted abnormality makes every sentence traceable to a named prediction, with no spatial localisation [49]."
+  ]
+ },
+ {
+  "ref_no": 50,
+  "reference": "50. Kyung S, Seo J, Lim H, et al: Region-Aware Multimodal Large Language Model via SlowFast Tokenization and Pseudo-Mask Guidance for 3D CT Report Generation. Lect Notes Comput Sci 17039:628-646, 2026. https://doi.org/10.1007/978-3-032-37435-6_34",
+  "claims_in_paper": [
+   "TABLE ROW: Kyung et al. [50]^a | Report generation | Multi-institutional structured reports | Text organised by region | Report quality only | Not stated",
+   "A region-aware language model organises the report by anatomical region and was evaluated on the quality of the report, not on whether the regional grounding was faithful [50]."
+  ]
+ },
+ {
+  "ref_no": 51,
+  "reference": "51. Selvaraju RR, Cogswell M, Das A, Vedantam R, Parikh D, Batra D: Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization. Int J Comput Vis 128:336-359, 2020. https://doi.org/10.1007/s11263-019-01228-7",
+  "claims_in_paper": [
+   "Grad-CAM weights the feature maps of the last convolutional layer by the gradients of the class score, giving a coarse heat map that needs no change to the network [51]."
+  ]
+ },
+ {
+  "ref_no": 52,
+  "reference": "52. Lundberg SM, Lee SI: A Unified Approach to Interpreting Model Predictions. Adv Neural Inf Process Syst 30, 2017. Available at https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "SHAP assigns each input feature an additive importance value for an individual prediction [52]."
+  ]
+ },
+ {
+  "ref_no": 53,
+  "reference": "53. Koh PW, Nguyen T, Tang YS, et al: Concept Bottleneck Models. Proc Mach Learn Res 119:5338-5348, 2020. Available at https://proceedings.mlr.press/v119/koh20a.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "A concept bottleneck model first predicts concepts that people have specified and labelled, and then predicts the target from those concepts alone, so that a user can correct a concept and see the output change [53]."
+  ]
+ },
+ {
+  "ref_no": 54,
+  "reference": "54. Havasi M, Parbhoo S, Doshi-Velez F: Addressing Leakage in Concept Bottleneck Models. Adv Neural Inf Process Syst 35:23386-23397, 2022. https://doi.org/10.52202/068431-1699",
+  "claims_in_paper": [
+   "The approach has a known weakness: when soft concept predictions are passed to the label predictor, information unrelated to the concepts can leak through, which lowers concept accuracy and makes interventions less effective [54].",
+   "Because a residual pathway invites the leakage described for concept bottleneck models [54], the design reports a leakage gap, defined as the loss of discrimination when the residual is switched off:"
+  ]
+ },
+ {
+  "ref_no": 55,
+  "reference": "55. Armato SG 3rd, McLennan G, Bidaut L, et al: The Lung Image Database Consortium (LIDC) and Image Database Resource Initiative (IDRI): A Completed Reference Database of Lung Nodules on CT Scans. Med Phys 38:915-931, 2011. https://doi.org/10.1118/1.3528204",
+  "claims_in_paper": [
+   "Four studies were found, all on pulmonary nodule malignancy and all relying on radiologist-rated nodule attributes from LIDC-IDRI, a public collection of 1,018 CT cases annotated by four thoracic radiologists [55].",
+   "The first stage is implementation on public data: CT-RATE for multi-abnormality prediction with reports [23], LIDC-IDRI for nodule attributes [55], and the grounded datasets for region-level and lesion-level evidence [69, 70], with the lobe masks checked on difficult anatomy before use [61]."
+  ]
+ },
+ {
+  "ref_no": 56,
+  "reference": "56. Rafferty A, Ramaesh R, Rajan A: Explainability Through Human-Centric Design for XAI in Lung Cancer Detection. Proc Int Joint Conf Artif Intell (IJCAI), pp 10325-10333, 2025. https://doi.org/10.24963/ijcai.2025/1147",
+  "claims_in_paper": [
+   "An expert-guided concept bottleneck for chest radiographs gave concept explanations closer to radiologist reasoning than post hoc methods [56]."
+  ]
+ },
+ {
+  "ref_no": 57,
+  "reference": "57. Wang C, Zhang K, Liu Y, He Z, Tao X, Zhou SK: MVP-CBM: Multi-layer Visual Preference-enhanced Concept Bottleneck Model for Explainable Medical Image Classification. Proc Int Joint Conf Artif Intell (IJCAI), pp 529-537, 2025. https://doi.org/10.24963/ijcai.2025/60",
+  "claims_in_paper": [
+   "Concepts generated by a large language model and matched to the layers of a biomedical vision-language encoder improved classification on seven datasets, although concept accuracy against expert labels was not evaluated [57]."
+  ]
+ },
+ {
+  "ref_no": 58,
+  "reference": "58. Nahiduzzaman M, Korevaar S, Ge Z, Xia F, Bab-Hadiashar A, Tennakoon R: Uncertainty-Aware Information Pursuit for Interpretable and Reliable Medical Image Analysis. IEEE Trans Med Imaging 45:3974-3985, 2026. https://doi.org/10.1109/TMI.2026.3690077",
+  "claims_in_paper": [
+   "A concept-querying model that accounts for the uncertainty of each concept prediction was the most accurate interpretable-by-design approach on four of five datasets [58].",
+   "The uncertainty of each concept prediction can be carried forward, as has been done for concept-querying models [58]."
+  ]
+ },
+ {
+  "ref_no": 59,
+  "reference": "59. Wu Y, Liu Y, Yang Y, et al: A concept-based interpretable model for the diagnosis of choroid neoplasias using multimodal data. Nat Commun 16:3504, 2025. https://doi.org/10.1038/s41467-025-58801-7",
+  "claims_in_paper": [
+   "In ophthalmology, concept-based support raised the accuracy of six inexperienced doctors, while two senior doctors were essentially unchanged [59], and a concept-enhanced biomedical foundation model was reported to help clinicians verify predictions [60]."
+  ]
+ },
+ {
+  "ref_no": 60,
+  "reference": "60. Nie Y, He S, Bie Y, et al: An explainable biomedical foundation model via large-scale concept-enhanced vision–language pretraining. Nat Biomed Eng, DOI: 10.1038/s41551-026-01764-x, August 17, 2026",
+  "claims_in_paper": [
+   "In ophthalmology, concept-based support raised the accuracy of six inexperienced doctors, while two senior doctors were essentially unchanged [59], and a concept-enhanced biomedical foundation model was reported to help clinicians verify predictions [60]."
+  ]
+ },
+ {
+  "ref_no": 61,
+  "reference": "61. Amini E, Klein R: Lung lobe segmentation: performance of open-source MOOSE, TotalSegmentator, and LungMask models compared to a local in-house model. Eur Radiol Exp 9:86, 2025. https://doi.org/10.1186/s41747-025-00623-9",
+  "claims_in_paper": [
+   "In a benchmark on 164 scans, public lobe segmentation tools lost accuracy on complex anatomy, and a locally trained model handled missing lobes more reliably [61].",
+   "A lobe segmentation model supplies masks $A_\\ell$ for the five lobes, $\\ell = 1,\\dots,L$, and their union $A^{+}$; the reliability of these masks limits everything that follows [61].",
+   "The first stage is implementation on public data: CT-RATE for multi-abnormality prediction with reports [23], LIDC-IDRI for nodule attributes [55], and the grounded datasets for region-level and lesion-level evidence [69, 70], with the lobe masks checked on difficult anatomy before use [61]."
+  ]
+ },
+ {
+  "ref_no": 62,
+  "reference": "62. Chen C, Li O, Tao D, Barnett A, Rudin C, Su JK: This Looks Like That: Deep Learning for Interpretable Image Recognition. Adv Neural Inf Process Syst 32, 2019. Available at https://proceedings.neurips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "The prototypical part network classifies an image by comparing its parts with learned prototypes [62]; it has been applied to breast tomosynthesis with assessment through radiologist feedback [63], but no peer-reviewed prototype network for chest CT was found other than the attribute prototypes described above [38].",
+   "Alongside the lobar and concept outputs, the design returns similar past cases through prototypes of the lobar descriptors [62] and a prediction set from conformal calibration [65, 66]."
+  ]
+ },
+ {
+  "ref_no": 63,
+  "reference": "63. Berti A, Scapicchio C, Iacconi C, et al: An explainable-by-design end-to-end AI framework based on prototypical part learning for lesion detection and classification in Digital Breast Tomosynthesis images. Comput Struct Biotechnol J 27:2649-2660, 2025. https://doi.org/10.1016/j.csbj.2025.06.008",
+  "claims_in_paper": [
+   "The prototypical part network classifies an image by comparing its parts with learned prototypes [62]; it has been applied to breast tomosynthesis with assessment through radiologist feedback [63], but no peer-reviewed prototype network for chest CT was found other than the attribute prototypes described above [38]."
+  ]
+ }
+]

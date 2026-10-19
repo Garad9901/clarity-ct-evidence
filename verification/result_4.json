@@ -1,0 +1,413 @@
+[
+ {
+  "ref_no": 64,
+  "opened": [
+   "https://www.nature.com/articles/s41746-026-02497-6"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "On chest radiographs, counterfactual edits validated by radiologists exposed cla",
+    "verdict": "supported",
+    "note": "Abstract: reader studies of the edited images; multi-task and foundation models frequently used off-target pathology as shortcuts. Page text is inconsistent on the two readers (methods: both board-certified radiologists; results: one described as a radiology resident)."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 65,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/ryai.240032",
+   "https://pubs.rsna.org/doi/10.1148/ryai.240032"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref adds issue 2 (not printed; not an error).",
+  "claims": [
+   {
+    "claim": "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases ",
+    "verdict": "supported",
+    "note": "For [65]: abstract gives 143 of 150 'challenging' cases (defined as reader disagreement) correctly flagged (95.3%). The [66] and [67] parts are judged under those references."
+   },
+   {
+    "claim": "Alongside the lobar and concept outputs, the design returns similar past cases t",
+    "verdict": "supported",
+    "note": "Source applies Mondrian conformal prediction to a YOLOv8 haemorrhage detector; the design statement is the article's own."
+   }
+  ],
+  "notices": "None seen; a linked commentary (10.1148/ryai.250032) only."
+ },
+ {
+  "ref_no": 66,
+  "opened": [
+   "https://proceedings.mlr.press/v266/hulsman25a.html",
+   "arXiv:2412.20167v1 (via alphaXiv, same title/authors)",
+   "https://raw.githubusercontent.com/mlresearch/v266/main/assets/hulsman25a/hulsman25a.pdf (unreadable binary)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases ",
+    "verdict": "supported",
+    "note": "For [66]: 91.35% sensitivity (printed as 91.4%) at 2.25 false positives per scan among nodules annotated by at least three radiologists (Set 3, CRC). Numbers were read in arXiv v1 of the paper; the PMLR abstract gives no numbers and the PMLR PDF could not be read."
+   },
+   {
+    "claim": "Alongside the lobar and concept outputs, the design returns similar past cases t",
+    "verdict": "supported",
+    "note": "Source produces conformal prediction sets with a risk guarantee for nodule detection; the design statement is the article's own."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 67,
+  "opened": [
+   "https://link.springer.com/chapter/10.1007/978-3-032-38407-2_21",
+   "https://api.crossref.org/works/10.1007/978-3-032-38407-2_21"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Year 2027 is the copyright/print year shown by Springer and Crossref; the chapter was published online 14 September 2026 in the ICANN 2026 proceedings (LNCS 17092, pp 260-271). Not an error, but the printed year is later than today's date.",
+  "claims": [
+   {
+    "claim": "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases ",
+    "verdict": "supported",
+    "note": "For [67]: abstract reports expected calibration error reduced by up to 65% on LIDC-IDRI. Only the abstract was readable (paywalled)."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 68,
+  "opened": [
+   "https://www.nature.com/articles/s41586-026-10181-8"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "A CT vision-language model trained on abdominal scans with diagnosis codes and r",
+    "verdict": "supported",
+    "note": "Trained on abdominal CT with diagnosis codes and reports; adapted tasks include report generation and 3D segmentation of 20 organs. The page describes no finding-level localisation; the 'without grounding' part is an absence the source does not state in words."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 69,
+  "opened": [
+   "https://www.nature.com/articles/s41597-025-05922-9"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "RadGenome-Chest CT adds to CT-RATE segmentation masks for 197 region categories,",
+    "verdict": "partly",
+    "note": "Counts match the abstract (197 categories, 665K grounded reports, 1.2M grounded VQA pairs; built on CT-RATE). 'All built automatically' is stronger than the source: the pipeline is model-driven, but all validation-set samples (9,008 finding sentences) were manually verified and errors corrected; the paper does not use the word 'automatically'."
+   },
+   {
+    "claim": "Public data now pair scans with reports [23], with region-level grounding [69], ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "The first stage is implementation on public data: CT-RATE for multi-abnormality ",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None (routine publisher's note only)."
+ },
+ {
+  "ref_no": 70,
+  "opened": [
+   "arXiv:2507.22030v2 (via alphaXiv; https://arxiv.org/abs/2507.22030)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Version read was v2 (27 Oct 2025).",
+  "claims": [
+   {
+    "claim": "A preprint describes 3,142 chest CT scans in which 8,028 report findings are lin",
+    "verdict": "supported",
+    "note": "3,142 scans, 8,028 text-to-3D-segmentation pairs; validation (50) and test (100) sets annotated by board-certified radiologists; training set by annotators/medical students with radiologist quality control."
+   },
+   {
+    "claim": "Public data now pair scans with reports [23], with region-level grounding [69], ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "The first stage is implementation on public data: CT-RATE for multi-abnormality ",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 71,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s00330-026-12648-8",
+   "https://api.crossref.org/works?filter=doi:10.1007/s00330-026-12648-8&select=title,author,volume,issue,page,article-number,container-title,issued"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In 478 emergency patients, with same-day CT as the reference, four of five model",
+    "verdict": "supported",
+    "note": "478 patients, same-day CT as reference for finding-level accuracy, five models; four had hallucination rates 5.4%-17.4% (fifth 0.3%, 4/1425; radiologists 0.1%). The 1425 denominator suggests rates are per reader rating of a report, not per unique report; only the abstract was read."
+   }
+  ],
+  "notices": "None; a commentary was published 19 June 2026 (not a correction)."
+ },
+ {
+  "ref_no": 72,
+  "opened": [
+   "https://proceedings.mlr.press/v297/moll26a.html"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "A perturbation test of step-by-step rationales in six vision-language models fou",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 73,
+  "opened": [
+   "https://www.nature.com/articles/s41746-026-02619-0"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In a randomised vignette experiment with 101 radiologists, in which a text-only ",
+    "verdict": "partly",
+    "note": "101 radiologists, randomised vignette experiment, chain-of-thought explanation +12.2 percentage points vs no support: all match. But the source does not describe a text-only model: it calls GPT-4 a multi-modal LLM and says the advice was generated from the patient's text and imaging data (introduction, results, methods, limitations). The 'text-only language model was given the case descriptions' detail contradicts the source."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 74,
+  "opened": [
+   "https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html",
+   "arXiv:1810.03292v3 (via alphaXiv)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Randomisation tests showed that some saliency methods produce maps that barely c",
+    "verdict": "supported",
+    "note": "For [74]: model parameter randomisation test; Guided Backprop and Guided GradCAM invariant to higher-layer weights. The [75] part is judged under ref 75."
+   },
+   {
+    "claim": "The second stage is computational evaluation under a fixed protocol: the four co",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 75,
+  "opened": [
+   "https://api.crossref.org/works?filter=doi:10.1148/ryai.2021200267&select=title,author,volume,issue,page,article-number,container-title,issued,abstract",
+   "https://pubs.rsna.org/doi/10.1148/ryai.2021200267"
+  ],
+  "biblio": "mismatch",
+  "biblio_notes": "Nothing printed is wrong, but the entry is incomplete: Crossref gives volume 3, issue 6, article number e200267; the printed entry has 'Radiol Artif Intell 3, 2021' with no article number (other entries in the list give one, e.g. ref 65).",
+  "claims": [
+   {
+    "claim": "Randomisation tests showed that some saliency methods produce maps that barely c",
+    "verdict": "supported",
+    "note": "For [75]: eight saliency methods on two chest radiograph datasets; all failed at least one of four criteria; AUPRC below U-Net and RetinaNet."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 76,
+  "opened": [
+   "https://www.mdpi.com/2306-5354/13/1/111"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Authors from the United States Food and Drug Administration set out four criteri",
+    "verdict": "supported",
+    "note": "For [76]: FDA (CDRH) affiliation; four criteria as named; 'explainability card'. The [14] part was not in scope."
+   },
+   {
+    "claim": "Faithfulness and stability correspond to the fidelity and consistency criteria p",
+    "verdict": "supported",
+    "note": "The mapping to faithfulness/stability is the article's own; source defines fidelity as alignment with the model's internal mechanisms and consistency as variation of explanations across similar inputs."
+   },
+   {
+    "claim": "In the terms of the four criteria proposed for heat maps it does not measure use",
+    "verdict": "supported",
+    "note": "For [76]: usefulness is the fourth criterion and needs human task-based studies. The [9] part was not in scope."
+   }
+  ],
+  "notices": "None seen (the 'Versions Notes' page was not opened)."
+ },
+ {
+  "ref_no": 77,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s10994-025-06919-6",
+   "https://api.crossref.org/works/10.1007/s10994-025-06919-6"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Published online 14 December 2025; volume 115 issue 1 dated 2026.",
+  "claims": [
+   {
+    "claim": "Many of ten explanation methods changed under perturbations that left the predic",
+    "verdict": "supported",
+    "note": "Ten methods (eight CNN, two transformer). Qualification: the 'no single method excels on all criteria' conclusion is stated for natural corruptions; under adversarial noise SmoothGrad was most robust on all metrics among the CNN methods."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 78,
+  "opened": [
+   "arXiv:2609.25978v1 (via alphaXiv; https://arxiv.org/abs/2609.25978)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In a preprint on breast magnetic resonance imaging, the ranking of seven salienc",
+    "verdict": "partly",
+    "note": "Source evaluates seven saliency methods on a ViT breast MRI classifier and states rankings depend on the perturbation strategy. But the masking-strategy comparison (Table 1) is shown for deletion AUCC only and only for the class-specific methods (the two attention-only methods are absent); insertion was evaluated under attention masking only. What changed was the relative order of the top two methods (Grad-CAM and Gradient Attention Rollout)."
+   },
+   {
+    "claim": "Removal of voxels should use replacement by healthy tissue from the same lobe an",
+    "verdict": "partly",
+    "note": "Source supports only the 'because' clause, and for deletion only (see above). It does not test or recommend healthy-tissue replacement; it compares black, white, minimum-intensity and attention masking, reports that fixed-intensity replacement behaves like random masking, and prefers attention masking for transformers."
+   },
+   {
+    "claim": "The second stage is computational evaluation under a fixed protocol: the four co",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 79,
+  "opened": [
+   "https://www.nature.com/articles/s41598-026-57667-z"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Among seven brain magnetic resonance models with similar accuracy, only two base",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 80,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s10278-025-01531-5"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Only the first three authors were visible on the page (order matches).",
+  "claims": [
+   {
+    "claim": "Explanations have also exposed shortcut learning: chest radiograph classifiers s",
+    "verdict": "supported",
+    "note": "For [80]: PadChest models stayed above chance without lungs (AUC from 0.74 for pneumonia up to 0.85-0.93 for effusion). Note the evidence comes mainly from masking experiments and performance, with SHAP as an additional analysis, so the sentence's lead-in 'Explanations have also exposed' fits loosely. The [81] part is judged under ref 81."
+   }
+  ],
+  "notices": "None (routine publisher's note only)."
+ },
+ {
+  "ref_no": 81,
+  "opened": [
+   "https://www.nature.com/articles/s42256-025-01000-2",
+   "https://api.crossref.org/works/10.1038/s42256-025-01000-2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Explanations have also exposed shortcut learning: chest radiograph classifiers s",
+    "verdict": "supported",
+    "note": "For [81]: a COVID-19 classifier on PubMedCLIP features had a 51% false positive rate on one data subset; BiLRP explanations traced the representation's similarity to text-like annotations on the images."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 82,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s00330-026-12666-6"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In mammography, heat maps reduced automation bias from 36.1% to 17.8% of deliber",
+    "verdict": "supported",
+    "note": "For [82]: six breast radiologists; automation bias in 65/180 (36.1%) manipulated cases with AI alone vs 32/180 (17.8%) with heat maps. The abstract does not explain the 180 denominator."
+   },
+   {
+    "claim": "Attribute explanations tended to lower accuracy when the model was wrong [38], r",
+    "verdict": "supported",
+    "note": "For [82]: authors state XAI reduced but did not eliminate the effects. The [38] part was not in scope."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 83,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/radiol.252590",
+   "https://pubs.rsna.org/doi/10.1148/radiol.252590"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref adds issue 1.",
+  "claims": [
+   {
+    "claim": "In mammography, heat maps reduced automation bias from 36.1% to 17.8% of deliber",
+    "verdict": "supported",
+    "note": "For [83]: in the 14 false-negative AI cases median reader sensitivity was 71% unassisted vs 39% with AI (P = .002), 10 readers, 60 cases. Prompts were region outlines with a score; the product is not named in the text seen (study funded by Lunit)."
+   },
+   {
+    "claim": "Attribute explanations tended to lower accuracy when the model was wrong [38], r",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 84,
+  "opened": [
+   "https://www.nature.com/articles/s41467-025-59532-5"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Among 76 dermatologists, balanced accuracy rose from 79.9% with a plain predicti",
+    "verdict": "supported",
+    "note": "Combined analysis n = 76: 79.9% with AI support without explanations vs 82.7% with XAI (difference 2.8 points, P = 0.013)."
+   }
+  ],
+  "notices": ""
+ }
+]

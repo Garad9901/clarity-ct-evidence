@@ -1,0 +1,148 @@
+[
+ {
+  "authors": [
+   "Chen C",
+   "Li O",
+   "Tao D",
+   "Barnett A",
+   "Rudin C",
+   "Su JK"
+  ],
+  "authors_complete": true,
+  "title": "This Looks Like That: Deep Learning for Interpretable Image Recognition",
+  "journal": "Advances in Neural Information Processing Systems 32 (NeurIPS 2019)",
+  "journal_abbrev": null,
+  "year": 2019,
+  "online_date": null,
+  "volume": "32",
+  "issue": null,
+  "pages": null,
+  "doi": null,
+  "url_opened": [
+   "https://proceedings.neurips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Introduces the prototypical part network (ProtoPNet), which classifies an image by finding parts that resemble learned class prototypes and summing that evidence, trained with image-level labels only. On CUB-200-2011 birds and Stanford Cars it reached accuracy close to non-interpretable counterparts, and ensembles of ProtoPNets matched some of the best deep models. Natural images only; no medical data and no human evaluation of the prototypes are described in the abstract.",
+  "use_for": "(1) prototype-based models: essential original for the ProtoPNet family",
+  "verified_how": "NeurIPS proceedings abstract page (title, authors, volume, year, abstract)",
+  "flags": "Essential original (2019). Page numbers and DOI not shown on the page opened."
+ },
+ {
+  "authors": [
+   "Rudin C"
+  ],
+  "authors_complete": true,
+  "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+  "journal": "Nature Machine Intelligence",
+  "journal_abbrev": null,
+  "year": 2019,
+  "online_date": "2019-05-13",
+  "volume": "1",
+  "issue": "5",
+  "pages": "206-215",
+  "doi": "10.1038/s42256-019-0048-x",
+  "url_opened": [
+   "https://www.nature.com/articles/s42256-019-0048-x"
+  ],
+  "pub_type": "journal",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Perspective arguing that post hoc explanation of black-box models in high-stakes settings such as healthcare and criminal justice can entrench bad practice, and that models should instead be designed to be interpretable from the start. It distinguishes explaining a black box from using an inherently interpretable model, lists reasons to avoid the former and challenges for the latter, and gives examples from criminal justice, healthcare and computer vision.",
+  "use_for": "(1)-(5) framing: essential original for the argument in favour of inherently interpretable models over post hoc explanation",
+  "verified_how": "Nature landing page (title, author, volume, issue, pages, date, DOI, abstract)",
+  "flags": "Essential original (2019). Article type is Perspective (opinion), not an empirical study; only abstract and metadata read (subscription content)."
+ },
+ {
+  "authors": [
+   "Wasserthal J",
+   "Breit HC",
+   "Meyer MT",
+   "Pradella M",
+   "Hinck D",
+   "Sauter AW",
+   "Heye T",
+   "Boll DT",
+   "Cyriac J",
+   "Yang S",
+   "Bach M",
+   "Segeroth M"
+  ],
+  "authors_complete": true,
+  "title": "TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images",
+  "journal": "Radiology: Artificial Intelligence",
+  "journal_abbrev": "Radiology: Artificial Intelligence",
+  "year": 2023,
+  "online_date": "2023-07-05",
+  "volume": "5",
+  "issue": "5",
+  "pages": "e230024",
+  "doi": "10.1148/ryai.230024",
+  "url_opened": [
+   "https://pubs.rsna.org/doi/10.1148/ryai.230024",
+   "https://api.crossref.org/works/10.1148/ryai.230024"
+  ],
+  "pub_type": "journal",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "nnU-Net model trained on 1,204 routine clinical CT examinations (1,082 training, 57 validation, 65 test) to segment 104 structures (27 organs, 59 bones, 10 muscles, 8 vessels), released with its dataset and toolkit. The 1.5 mm model reached Dice 0.943 and normalised surface distance 0.966 on the test set (Dice 0.840 for the 3 mm model) and outperformed a BTCV-trained nnU-Net on shared structures. It supplies the anatomical masks commonly used to localise or aggregate CT model outputs.",
+  "use_for": "(2) anatomically structured analysis: essential original for the segmentation tool used to define organs and lung lobes",
+  "verified_how": "RSNA landing page (title, authors, abstract, date) + Crossref record (volume, issue, article number)",
+  "flags": "Essential original (2023). The abstract as read does not itself single out lung-lobe accuracy."
+ },
+ {
+  "authors": [
+   "Ilse M",
+   "Tomczak J",
+   "Welling M"
+  ],
+  "authors_complete": true,
+  "title": "Attention-based Deep Multiple Instance Learning",
+  "journal": "Proceedings of the 35th International Conference on Machine Learning (Proceedings of Machine Learning Research)",
+  "journal_abbrev": "PMLR",
+  "year": 2018,
+  "online_date": null,
+  "volume": "80",
+  "issue": null,
+  "pages": "2127-2136",
+  "doi": null,
+  "url_opened": [
+   "https://proceedings.mlr.press/v80/ilse18a.html"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Formulates multiple instance learning as learning a Bernoulli distribution for the bag label parameterised by neural networks and proposes a permutation-invariant attention-based pooling operator whose weights indicate how much each instance contributes to the bag label. It matched leading MIL methods on standard benchmarks and outperformed them on an MNIST-based MIL set and two histopathology datasets.",
+  "use_for": "(4) attention-based MIL: essential original for attention pooling whose weights are read as the explanation",
+  "verified_how": "PMLR proceedings page (title, authors, volume, pages, year, abstract)",
+  "flags": "Essential original (2018). No DOI shown on the PMLR page. Evaluated on histopathology, not CT."
+ },
+ {
+  "authors": [
+   "Angelopoulos AN",
+   "Bates S"
+  ],
+  "authors_complete": true,
+  "title": "Conformal Prediction: A Gentle Introduction",
+  "journal": "Foundations and Trends® in Machine Learning",
+  "journal_abbrev": null,
+  "year": 2023,
+  "online_date": "2023-03-27",
+  "volume": "16",
+  "issue": "4",
+  "pages": "494-591",
+  "doi": "10.1561/2200000101",
+  "url_opened": [
+   "https://www.nowpublishers.com/article/Details/MAL-101",
+   "https://api.crossref.org/works/10.1561/2200000101"
+  ],
+  "pub_type": "journal",
+  "is_review": true,
+  "abstract_read": true,
+  "key_finding": "Tutorial monograph on conformal prediction, a way of wrapping any pretrained model to produce prediction sets that contain the true outcome at a user-chosen rate, with finite-sample guarantees that need no assumptions about the data distribution or the model. After the core theory and worked examples it covers extensions to structured outputs, distribution shift, time series, outlier detection and abstaining models, with accompanying Python code.",
+  "use_for": "(5) conformal prediction: essential original / methodological reference",
+  "verified_how": "Publisher (now publishers) page (title, authors, volume, issue, pages, date, abstract) + Crossref record (DOI, type)",
+  "flags": "Essential original (2023). Tutorial/monograph in a review-style journal; Crossref short-container-title is empty."
+ }
+]

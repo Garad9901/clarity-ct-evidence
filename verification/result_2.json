@@ -1,0 +1,550 @@
+[
+ {
+  "ref_no": 22,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/radiol.232558",
+   "https://pubs.rsna.org/doi/10.1148/radiol.232558"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Chest CT nevertheless has properties that matter for explanation: it is volumetr",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "For thoracic imaging, the Fleischner Society glossary supplies a current, consen",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "Semantic expressibility asks that the explanation can be stated in standard term",
+    "verdict": "supported",
+    "note": "The source is the standard-terminology glossary; 'semantic expressibility' is the article's own criterion and is not a term or idea stated in the glossary."
+   },
+   {
+    "claim": "An initial vocabulary of 23 descriptors based on Fleischner Society terminology ",
+    "verdict": "supported",
+    "note": "Source confirmed only as the Fleischner glossary; the 23-descriptor list in Online Resource 1 is the article's own material and was not seen or compared with the glossary."
+   },
+   {
+    "claim": "A consensus vocabulary exists [22].",
+    "verdict": "supported",
+    "note": "Introduction describes the definitions as a consensus proposal, not strict rules."
+   }
+  ],
+  "notices": "None seen on the RSNA page (page text truncated) or in the Crossref record."
+ },
+ {
+  "ref_no": 23,
+  "opened": [
+   "https://www.nature.com/articles/s41551-025-01599-y",
+   "arXiv:2403.17834v5 (same title, read through alphaXiv)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Chest CT nevertheless has properties that matter for explanation: it is volumetr",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "TABLE ROW: Hamamci et al. [23]^a | Multi-abnormality detection and chat | CT-RAT",
+    "verdict": "partly",
+    "note": "Task, dataset and 25,692 scans match. For the 'None reported' cell: no saliency or other explanation method was found, but the arXiv v5 text describes three board-certified radiologists each rating 150 generated reports per model on a 0-10 scale, which is an expert assessment of the free-text output. The published full text is paywalled; only abstract and captions were read there."
+   },
+   {
+    "claim": "CT-RATE provides 25,692 non-contrast chest CT scans from 21,304 patients with th",
+    "verdict": "supported",
+    "note": "Numbers match. The published abstract says 'without the need for task-specific training' and does not use the word zero-shot; the arXiv v5 text of the same paper does describe zero-shot multi-abnormality detection."
+   },
+   {
+    "claim": "Public data now pair scans with reports [23], with region-level grounding [69], ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "The first stage is implementation on public data: CT-RATE for multi-abnormality ",
+    "verdict": "supported",
+    "note": "Source confirms CT-RATE is public, with reports and 18 abnormality labels; the staged plan itself is the article's own."
+   }
+  ],
+  "notices": "None seen on the Nature page."
+ },
+ {
+  "ref_no": 24,
+  "opened": [
+   "https://api.crossref.org/works/10.7326/M18-0850",
+   "https://www.acpjournals.org/doi/10.7326/M18-0850"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Reporting was informed by the PRISMA extension for scoping reviews where its ite",
+    "verdict": "supported",
+    "note": "Source confirmed as the PRISMA-ScR checklist paper; the abstract text was not visible on the page. The sentence describes the article's own reporting and cannot be tested against the source."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 25,
+  "opened": [
+   "https://www.nature.com/articles/s41598-025-09041-8"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Müller-Franzes et al. [25] | Nodule malignancy | LIDC-IDRI, 722 patie",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "One radiologist rated 150 maps pooled across chest CT and two magnetic resonance",
+    "verdict": "supported",
+    "note": "150 maps were rated per model (50 from each of three datasets); 136 of 150 for the transformer attention maps and 37 of 150 for Grad-CAM on a 3D ResNet50 marked the correct slice."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 26,
+  "opened": [
+   "https://insightsimaging.springeropen.com/articles/10.1186/s13244-025-02000-x",
+   "https://api.crossref.org/works/10.1186/s13244-025-02000-x"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Wang et al. [26] | Resolving screen-detected nodules | NELSON trial, ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 27,
+  "opened": [
+   "https://www.nature.com/articles/s41598-026-44127-x"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Hassan et al. [27] | Normal, benign or malignant slices | IQ-OTH/NCCD",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "A variant of LIME with lung-region masking was tested with deletion, insertion a",
+    "verdict": "supported",
+    "note": "The paper also reports a separate brain MRI evaluation, which the sentence does not mention."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 28,
+  "opened": [
+   "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1853361/full"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Kodipyaka et al. [28] | Benign or malignant lesions | 61 development ",
+    "verdict": "partly",
+    "note": "61 volumes, two external sets (LIDC-IDRI, NSCLC-Radiomics), Grad-CAM, KernelSHAP, two raters and six cases all match. The 'Expert rating' label is not backed by the text: the paper does not say who the two raters of the Grad-CAM maps were or what their specialty or experience was."
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "Two raters judged the clinical relevance of Grad-CAM maps in six cases, with a C",
+    "verdict": "supported",
+    "note": "Kappa 0.45 on six cases with a binary relevance rating; raw agreement 83.3%."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 29,
+  "opened": [
+   "https://api.crossref.org/works/10.1007/s10278-026-01954-8",
+   "https://api.openalex.org/works/doi:10.1007/s10278-026-01954-8"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Checked against Crossref and OpenAlex metadata only (authors Yan Z, Deng X, Dang J; title; journal; online 27 April 2026; no volume or pages assigned). The publisher page could not be opened.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Yan et al. [29]^a | Occult lymph node metastasis | 900 patients, two ",
+    "verdict": "not_checked",
+    "note": "Abstract not readable: the Springer page and the DOI link were both refused by the fetch proxy (HTTP 429), and Crossref, OpenAlex and Semantic Scholar returned no abstract. Only the title and an OpenAlex keyword mentioning Grad-CAM interpretability were seen; 900 patients, two hospitals and 'none stated' could not be checked."
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": "Judged from the title only (occult lymph node metastasis in early-stage NSCLC)."
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "not_checked",
+    "note": "Abstract not readable, so whether it mentions an assessment of the maps could not be checked."
+   }
+  ],
+  "notices": "Publisher landing page not opened. Crossref shows no update or relation entries; OpenAlex lists is_retracted false."
+ },
+ {
+  "ref_no": 30,
+  "opened": [
+   "https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-026-02584-w (redirected to link.springer.com/article/10.1186/s12880-026-02584-w)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Wang et al. [30] | Extranodal extension | 369 patients, three centres",
+    "verdict": "supported",
+    "note": "369 patients (274 + 95) from three centres; Grad-CAM appears only as a figure of three representative samples and is not described in the Methods."
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 31,
+  "opened": [
+   "https://www.nature.com/articles/s41598-025-33178-1",
+   "https://api.crossref.org/works/10.1038/s41598-025-33178-1"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Rahat et al. [31] | COVID-19 or normal | 25,408 images, nine public s",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": "Maps shown for two CT images with radiologist-marked ground-glass opacities taken from a published review; the authors also say images without opacities were analysed, number not given."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 32,
+  "opened": [
+   "https://www.nature.com/articles/s41598-025-15960-3"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Zhang et al. [32] | Interstitial lung disease pattern | 629 patients,",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 33,
+  "opened": [
+   "https://www.frontiersin.org/journals/radiology/articles/10.3389/fradi.2026.1829853/full"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Mou et al. [33] | Normal, PRISm or COPD | 776 patients and 190 extern",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 34,
+  "opened": [
+   "https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2026.1864916/full"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Li et al. [34] | Pulmonary thromboembolism | 1,368 patients and 98 ex",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": "Emboli were annotated with bounding boxes by three radiologists, but the Grad-CAM overlays were only inspected visually and not compared with those annotations."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 35,
+  "opened": [
+   "https://insightsimaging.springeropen.com/articles/10.1186/s13244-025-02131-1 (redirected to link.springer.com/article/10.1186/s13244-025-02131-1)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Liu et al. [35] | Nontuberculous mycobacterial disease or colonisatio",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 36,
+  "opened": [
+   "https://proceedings.mlr.press/v301/di-piazza26a.html",
+   "arXiv:2503.20652v6 (full text, read through alphaXiv)",
+   "https://raw.githubusercontent.com/mlresearch/v301/main/assets/di-piazza26a/di-piazza26a.pdf (returned unreadable binary)"
+  ],
+  "biblio": "mismatch",
+  "biblio_notes": "Title on the PMLR landing page and in its BibTeX entry reads 'A Glocal-Lobal Attention Model' (apparently a typo in the proceedings record); the printed reference has 'A Global-Local Attention Model', which is the spelling on the arXiv version. Authors, volume 301, pages 1313-1325 and year 2026 match the PMLR record. The arXiv v6 PDF still carries a template header 'PMLR 113:1-14, 2025' and labels the paper MIDL 2025.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Di Piazza et al. [36] | 18 abnormalities | CT-RATE, with test on Rad-",
+    "verdict": "supported",
+    "note": "Read in arXiv v6, not the proceedings PDF. 18 labels on CT-RATE; on the Rad-ChestCT test set only the 16 labels shared with CT-RATE are scored. Grad-CAM maps appear in one figure (Figure 4) with no quantitative assessment."
+   },
+   {
+    "claim": "They covered nodule malignancy on LIDC-IDRI [25], resolution of screen-detected ",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "In nine of the 12 studies the maps were shown for a few examples or no assessmen",
+    "verdict": "supported",
+    "note": ""
+   }
+  ],
+  "notices": "None seen on the PMLR page."
+ },
+ {
+  "ref_no": 37,
+  "opened": [
+   "https://api.crossref.org/works?filter=doi:10.1016/j.jbi.2025.104947&select=title,author,volume,issue,page,article-number,container-title,issued",
+   "arXiv:2504.21344v3 (same title and authors, read through alphaXiv)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Zhuang et al. [37] | Nodule malignancy | NLST and LIDC-IDRI, three ex",
+    "verdict": "supported",
+    "note": "Read in arXiv v3, not the journal version. The reported measure for predicted features is AUROC (zero-shot inference on the NLST test set), not accuracy in the strict sense."
+   },
+   {
+    "claim": "One fine-tuned a vision-language model so that nodule views align with sentences",
+    "verdict": "supported",
+    "note": "Margin AUROC 0.807, pleural attachment 0.840, consistency 0.812; the authors say nodule shape and most internal features did not perform well. Read in arXiv v3."
+   }
+  ],
+  "notices": "Publisher landing page not opened (doi.org redirects to Elsevier, which is not reachable here; the plain Crossref record call failed), so correction notices were not checked."
+ },
+ {
+  "ref_no": 38,
+  "opened": [
+   "https://peerj.com/articles/cs-2908/",
+   "https://api.crossref.org/works/10.7717/peerj-cs.2908"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Gallée et al. [38] | Nodule malignancy | LIDC-IDRI | Attribute scores",
+    "verdict": "supported",
+    "note": "The six-radiologist study is summarised in this paper and referred to the group's 2024 paper for the full analysis."
+   },
+   {
+    "claim": "A second tied each capsule of a capsule network to one attribute and built the m",
+    "verdict": "supported",
+    "note": "Described as tendencies; no statistical tests or numbers are given on the page."
+   },
+   {
+    "claim": "The prototypical part network classifies an image by comparing its parts with le",
+    "verdict": "supported",
+    "note": "Source confirms an attribute-prototype model on LIDC-IDRI chest CT; that no other peer-reviewed prototype network was found is the article's own search result and cannot be tested against this source."
+   },
+   {
+    "claim": "Attribute explanations tended to lower accuracy when the model was wrong [38], r",
+    "verdict": "supported",
+    "note": "Only the part citing [38] was checked; it is described in the source as a tendency without a significance test."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 39,
+  "opened": [
+   "https://link.springer.com/article/10.3103/S0147688225700637"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Volume 52, issue 6, pages 760-768, issue dated December 2025; the page gives online publication on 21 February 2026.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Dumaev et al. [39]^a | Nodule malignancy | LIDC-IDRI | Concept scores",
+    "verdict": "supported",
+    "note": "Abstract only (full text behind a paywall). The abstract mentions LIDC-IDRI, concept-based learning with generalized additive models, and 'competitive' classification and attribute-scoring performance; no metrics were visible."
+   },
+   {
+    "claim": "A third combined concept learning with an additive model that exposes the contri",
+    "verdict": "supported",
+    "note": "Abstract only."
+   }
+  ],
+  "notices": "None seen."
+ },
+ {
+  "ref_no": 40,
+  "opened": [
+   "https://arxiv.org/abs/2608.07857",
+   "arXiv:2608.07857v1 (full text, read through alphaXiv)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Tushar et al. [40]^a,b | Nodule malignancy | LIDC-IDRI, LUNA25, exter",
+    "verdict": "supported",
+    "note": "External cohort is DLCS."
+   },
+   {
+    "claim": "A fourth, a preprint, distilled concept bottlenecks from frozen CT foundation mo",
+    "verdict": "supported",
+    "note": "Cross-validated R2 of 0.05-0.24 for the better-recovered concepts, called modest by the authors; external AUROC 0.72 and 0.73 against 0.73 for nodule size alone."
+   }
+  ],
+  "notices": "None seen; single version (v1, 8 August 2026), no journal reference."
+ },
+ {
+  "ref_no": 41,
+  "opened": [
+   "https://pubs.rsna.org/doi/10.1148/radiol.252958",
+   "https://api.crossref.org/works/10.1148/radiol.252958"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Curiale et al. [41] | Emphysema progression per lobe | COPDGene and E",
+    "verdict": "supported",
+    "note": ""
+   },
+   {
+    "claim": "A lobe-based transformer on the COPDGene and ECLIPSE cohorts predicts the progre",
+    "verdict": "supported",
+    "note": "Predicted versus observed lobar change in adjusted lung density compared with Pearson r, RMSE and Bland-Altman analysis."
+   }
+  ],
+  "notices": "The RSNA page states that an earlier incorrect version appeared online and was corrected on 29 May 2026, and links an erratum (doi 10.1148/radiol.269009) whose content was not shown. No retraction. Crossref shows no update entries."
+ },
+ {
+  "ref_no": 42,
+  "opened": [
+   "https://bmcpulmmed.biomedcentral.com/articles/10.1186/s12890-026-04201-6 (redirected to link.springer.com/article/10.1186/s12890-026-04201-6)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Kuzmanovic et al. [42] | Interstitial lung disease extent per lobe | ",
+    "verdict": "supported",
+    "note": "The expert scored each finding globally and by lobe; lobar agreement is reported in a separate table."
+   },
+   {
+    "claim": "A commercial tool that reports the volume of each interstitial pattern per lobe ",
+    "verdict": "partly",
+    "note": "The four kappa values and 107 patients match, and the tool is described as commercially available. But the Results give these kappas for agreement on overall semi-quantitative extent categories, not for a lobar score. Lobar agreement is reported separately and is lower: kappa 0.43-0.52 for ground-glass opacity in the lower lobes and below 0.10 for reticulation. The source also gives no weighting for the kappa, calls consolidation 'good' in the abstract but 'moderate' in the Results, and calls honeycombing 'low'."
+   }
+  ],
+  "notices": "None seen."
+ }
+]

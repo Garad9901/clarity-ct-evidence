@@ -1,0 +1,63 @@
+n,first_author,year,pub_type,title,doi,reason
+1,Dagnaw GH,2025,preprint,Explainable Artificial Intelligence in Biomedical Image Analysis: A Comprehensive Survey,,"Preprint without a peer-reviewed version, not essential"
+2,Houssein EH,2025,journal,Explainable artificial intelligence for medical imaging systems using deep learning: a comprehensive review,10.1007/s10586-025-05281-5,[NEEDED: outside chest CT / details not verifiable / redundant]
+3,Fahad N,2026,journal,Responsible artificial intelligence in medical imaging: a systematic review,10.3389/fdgth.2026.1884692,[NEEDED: outside chest CT / details not verifiable / redundant]
+4,Singh Y,2025,journal,"Beyond Post hoc Explanations: A Comprehensive Framework for Accountable AI in Medical Imaging Through Transparency, Interpretability, and Explainability",10.3390/bioengineering12080879,[NEEDED: outside chest CT / details not verifiable / redundant]
+5,Ryu JS,2025,journal,Vision-language foundation models for medical imaging: a review of current practices and innovations,10.1007/s13534-025-00484-6,[NEEDED: outside chest CT / details not verifiable / redundant]
+6,Vergara-Richart A,2026,preprint,"Vision Foundation Models in Radiology: A Scoping Review of Data, Methodology, Evaluation and Clinical Translation",,"Preprint without a peer-reviewed version, not essential"
+7,van der Velden BHM,2022,journal,Explainable artificial intelligence (XAI) in deep learning-based medical image analysis,10.1016/j.media.2022.102470,Older source beyond those needed as originals or standards
+8,Lin C,2026,journal,Multi-center validated attention-BiFPN deep learning for CT-based lung cancer subtype classification,10.1186/s40001-026-04782-2,[NEEDED: outside chest CT / details not verifiable / redundant]
+9,Fu Y,2025,journal,CT-based deep learning model for improved disease-free survival prediction in clinical stage I lung cancer: a real-world multicenter study,10.1007/s00330-025-11682-2,[NEEDED: outside chest CT / details not verifiable / redundant]
+10,Feng Y,2025,journal,Multimodal text guided network for chest CT pneumonia classification,10.1038/s41598-025-14165-y,[NEEDED: outside chest CT / details not verifiable / redundant]
+11,Dou W,2025,conference,Predicting Risk of Pulmonary Fibrosis Formation in PASC Patients,10.1109/acdsa65407.2025.11166522,[NEEDED: outside chest CT / details not verifiable / redundant]
+12,Li R,2025,journal,Deep learning based CT images for lung function prediction in patients with chronic obstructive pulmonary disease,10.1186/s12890-025-03957-7,[NEEDED: outside chest CT / details not verifiable / redundant]
+13,Hu B,2026,journal,Deep learning-based differentiation of non-tuberculous mycobacterial lung disease and pulmonary tuberculosis using chest CT,10.3389/fmed.2026.1786346,[NEEDED: outside chest CT / details not verifiable / redundant]
+14,Ribeiro MT,2016,conference,"""Why Should I Trust You?"": Explaining the Predictions of Any Classifier",10.1145/2939672.2939778,Older source beyond those needed as originals or standards
+15,Sundararajan M,2017,conference,Axiomatic Attribution for Deep Networks,,Older source beyond those needed as originals or standards
+16,Ma B,2026,preprint,"Less Annotation, More Interpretation: Prior-Guided Concept Bottleneck Models for Interpretable Cancer Imaging Diagnosis",,"Preprint without a peer-reviewed version, not essential"
+17,Gallée L,2025,preprint,"Minimum Data, Maximum Impact: 20 annotated samples for explainable lung nodule classification",,"Preprint without a peer-reviewed version, not essential"
+18,Nooralahzadeh F,2026,preprint,Sparse Concept Channels in Frozen 3D CT Vision Encoders,,"Preprint without a peer-reviewed version, not essential"
+19,Wu R,2026,preprint,Auditable CT Phenotyping Through Report-derived Radiological Observations,,"Preprint without a peer-reviewed version, not essential"
+20,Huy TD,2025,conference,Interactive Medical Image Analysis with Concept-based Similarity Reasoning,10.1109/CVPR52734.2025.02868,[NEEDED: outside chest CT / details not verifiable / redundant]
+21,Dong Y,2025,conference,CoPA: Hierarchical Concept Prompting and Aggregating Network for Explainable Diagnosis,10.1007/978-3-032-05185-1_7,[NEEDED: outside chest CT / details not verifiable / redundant]
+22,Wang H,2026,conference,Concept Complement Bottleneck Model for Interpretable Medical Image Diagnosis,,[NEEDED: outside chest CT / details not verifiable / redundant]
+23,Parisini E,2025,preprint,Leakage and Interpretability in Concept-Based Models,,"Preprint without a peer-reviewed version, not essential"
+24,Bogani A,2026,preprint,Are Concept Bottleneck Models Effective as Decision-Support Systems?,,"Preprint without a peer-reviewed version, not essential"
+25,Kim B,2018,conference,Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV),,Older source beyond those needed as originals or standards
+26,Yuksekgonul M,2023,conference,Post-hoc Concept Bottleneck Models,,Older source beyond those needed as originals or standards
+27,Oikarinen T,2023,conference,Label-free Concept Bottleneck Models,,Older source beyond those needed as originals or standards
+28,Ribeiro JA,2026,journal,LobePrior segments lung lobes on computed tomography images in the presence of severe abnormalities,10.1038/s41598-026-48136-8,[NEEDED: outside chest CT / details not verifiable / redundant]
+29,De Santi LA,2025,conference,PIPNet3D: Interpretable Detection of Alzheimer in MRI Scans,10.1007/978-3-031-77610-6_7,[NEEDED: outside chest CT / details not verifiable / redundant]
+30,Rząsa D,2026,preprint,COGENT: Counterfactual Gaussian Explanations for Volumetric Medical Images,,"Preprint without a peer-reviewed version, not essential"
+31,Ma C,2025,conference,Towards Interpretable Counterfactual Generation via Multimodal Autoregression,10.1007/978-3-032-04937-7_58,[NEEDED: outside chest CT / details not verifiable / redundant]
+32,Harvey E,2026,preprint,Normal Guidance is what Attention Needs,,"Preprint without a peer-reviewed version, not essential"
+33,Castro-Macías FM,2026,journal,Probabilistic smooth attention for deep multiple instance learning in medical imaging,10.1016/j.patcog.2025.112097,[NEEDED: outside chest CT / details not verifiable / redundant]
+34,Wasserthal J,2023,journal,TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images,10.1148/ryai.230024,Older source beyond those needed as originals or standards
+35,Ilse M,2018,conference,Attention-based Deep Multiple Instance Learning,,Older source beyond those needed as originals or standards
+36,Angelopoulos AN,2023,journal,Conformal Prediction: A Gentle Introduction,10.1561/2200000101,Older source beyond those needed as originals or standards
+37,Radford A,2021,conference,Learning Transferable Visual Models From Natural Language Supervision,,Older source beyond those needed as originals or standards
+38,Wu C,2025,journal,Towards generalist foundation model for radiology by leveraging web-scale 2D&3D medical data,10.1038/s41467-025-62385-7,[NEEDED: outside chest CT / details not verifiable / redundant]
+39,Bassi PRAS,2025,conference,RadGPT: Constructing 3D Image-Text Tumor Datasets,10.1109/iccv51701.2025.02202,[NEEDED: outside chest CT / details not verifiable / redundant]
+40,Gai X,2025,conference,3D-RAD: A Comprehensive 3D Radiology Med-VQA Dataset with Multi-Temporal Analysis and Diverse Diagnostic Tasks,10.52202/085713-5656,[NEEDED: outside chest CT / details not verifiable / redundant]
+41,Yuan R,2026,preprint,CT-FineBench: A Diagnostic Fidelity Benchmark for Fine-Grained Evaluation of CT Report Generation,,"Preprint without a peer-reviewed version, not essential"
+42,Song J,2026,journal,Determinants of Reader-LLM Interaction in Thoracic Radiology: Impact of Model Confidence and Reader Expertise,10.1148/radiol.253397,[NEEDED: outside chest CT / details not verifiable / redundant]
+43,Muhammad D,2025,journal,More than just a heatmap: elevating XAI with rigorous evaluation metrics,10.3389/fmedt.2025.1674343,[NEEDED: outside chest CT / details not verifiable / redundant]
+44,Karagoz G,2025,journal,XIMED: A Dual-Loop Evaluation Framework Integrating Predictive Model and Human-Centered Approaches for Explainable AI in Medical Imaging,10.3390/make7040168,[NEEDED: outside chest CT / details not verifiable / redundant]
+45,Sadanandan B,2026,preprint,Attention Without Grounding: Causal Evaluation of Visual Explanations in Medical VLMs,,"Preprint without a peer-reviewed version, not essential"
+46,Rainey C,2025,journal,"The impact of AI feedback on the accuracy of diagnosis, decision switching and trust in radiography",10.1371/journal.pone.0322051,[NEEDED: outside chest CT / details not verifiable / redundant]
+47,Han Y,2026,journal,Eye-Tracking Evidence That Verifiable Explanations Support Visual Evidence Checking in AI-Assisted Chest Radiograph Interpretation,10.3390/jemr19030055,[NEEDED: outside chest CT / details not verifiable / redundant]
+48,Ketabi S,2026,preprint,Exploring Radiologists' Expectations of Explainable Machine Learning Models in Medical Image Analysis,,"Preprint without a peer-reviewed version, not essential"
+49,Rezaeian O,2026,journal,"Explainability and AI Confidence in Clinical Decision Support Systems: Effects on Trust, Diagnostic Performance, and Cognitive Load in Breast Cancer Care",10.1080/10447318.2025.2539458,[NEEDED: outside chest CT / details not verifiable / redundant]
+50,Samek W,2017,journal,Evaluating the Visualization of What a Deep Neural Network Has Learned,10.1109/TNNLS.2016.2599820,Older source beyond those needed as originals or standards
+51,Hedström A,2023,journal,Quantus: An Explainable AI Toolkit for Responsible Evaluation of Neural Network Explanations and Beyond,,Older source beyond those needed as originals or standards
+52,Jacovi A,2020,conference,Towards Faithfully Interpretable NLP Systems: How Should We Define and Evaluate Faithfulness?,10.18653/v1/2020.acl-main.386,Older source beyond those needed as originals or standards
+53,DeGrave AJ,2021,journal,AI for radiographic COVID-19 detection selects shortcuts over signal,10.1038/s42256-021-00338-7,Older source beyond those needed as originals or standards
+54,Gaube S,2021,journal,Do as AI say: susceptibility in deployment of clinical decision-aids,10.1038/s41746-021-00385-9,Older source beyond those needed as originals or standards
+55,Mao Y,2026,journal,Artificial intelligence as an independent reader of risk-dominant lung nodules: influence of CT reconstruction parameters,10.1007/s00330-025-11949-8,[NEEDED: outside chest CT / details not verifiable / redundant]
+56,Collins GS,2024,guideline,TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods,10.1136/bmj-2023-078378,Older source beyond those needed as originals or standards
+57,Tejani AS,2024,guideline,Checklist for Artificial Intelligence in Medical Imaging (CLAIM): 2024 Update,10.1148/ryai.240300,Older source beyond those needed as originals or standards
+58,U.S. Food and Drug Administration,2024,guideline,Transparency for Machine Learning-Enabled Medical Devices: Guiding Principles,,Older source beyond those needed as originals or standards
+59,Diab AR,2025,journal,Distinguishing between Rigor and Transparency in FDA Marketing Authorization of AI-enabled Medical Devices,10.1148/ryai.250369,[NEEDED: outside chest CT / details not verifiable / redundant]
+60,Brady AP,2024,guideline,"Developing, purchasing, implementing and monitoring AI tools in radiology: practical considerations. A multi-society statement from the ACR, CAR, ESR, RANZCR & RSNA",10.1186/s13244-023-01541-3,Older source beyond those needed as originals or standards
+61,Page MJ,2021,guideline,The PRISMA 2020 statement: an updated guideline for reporting systematic reviews,10.1136/bmj.n71,Older source beyond those needed as originals or standards
+62,Christensen J,2024,guideline,ACR Lung-RADS v2022: Assessment Categories and Management Recommendations,10.1016/j.chest.2023.10.028,Older source beyond those needed as originals or standards

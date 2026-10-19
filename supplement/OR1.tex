@@ -1,0 +1,158 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt}
+\newtheorem{proposition}{Proposition S\!}
+\theoremstyle{definition}\newtheorem{definition}{Definition S\!}
+\theoremstyle{remark}\newtheorem{remark}{Remark S\!}
+\pagestyle{plain}
+\begin{document}
+{\large\bfseries Online Resource 1}
+
+\textbf{Article title:} Explainable Artificial Intelligence for Chest CT in 2025 and 2026: A Focused Narrative Review and a Proposed Concept-Based Reference Framework
+
+\textbf{Journal:} Medical \& Biological Engineering \& Computing
+
+\textit{Author names and affiliations are given on the separate title page.}
+
+This resource contains (S1) the formal properties of the CMXI index and their proof, (S2) the equations of the reference design, (S3) the statement and proof of the lobar evidence accounting property, (S4) the initial concept vocabulary of the proposed design, and (S5) the number of records verified and included for each search theme. The design and the index are proposals; nothing in this resource is an experimental result.
+
+\section*{S1\quad Formal properties of the CMXI index}
+
+Let $\mu=(\mu_1,\mu_2,\mu_3,\mu_4)=(F,P,S,Q)\in[0,1]^4$ be the vector of faithfulness, plausibility, stability and conciseness defined in the article, and let
+\[
+\mathrm{CMXI}(\mu)=\prod_{i=1}^{4}\mu_i^{\,w_i},\qquad w_i>0,\qquad \sum_{i=1}^{4}w_i=1 .
+\]
+
+\begin{definition}[Properties of an aggregation]
+An aggregation $G:[0,1]^4\to[0,1]$ has
+\begin{enumerate}[label=(A\arabic*),leftmargin=12mm,itemsep=1pt,topsep=2pt]
+\item the \emph{null explanation} property if $G(\mu)=0$ whenever $\mu_i=0$ for some $i$;
+\item \emph{strict monotonicity} if $\partial G/\partial\mu_i>0$ for every $i$ on $(0,1]^4$;
+\item \emph{non-compensation} if, for every pair $i\neq j$ and every fixed $\mu_j>0$, the marginal rate of substitution $|d\mu_j/d\mu_i|$ along a level set of $G$ grows without bound as $\mu_i\to 0^{+}$;
+\item \emph{scale consistency} if $G(\lambda\mu)=\lambda\,G(\mu)$ for every $\lambda\in(0,1]$.
+\end{enumerate}
+\end{definition}
+
+\begin{proposition}
+CMXI has properties (A1) to (A4). A weighted arithmetic mean $G_A(\mu)=\sum_i w_i\mu_i$ with $w_i>0$ and $\sum_i w_i=1$ has neither (A1) nor (A3).
+\end{proposition}
+
+\begin{proof}
+(A1) Since $w_i>0$, $\mu_i^{\,w_i}=0$ when $\mu_i=0$, and the product vanishes.
+
+(A2) On $(0,1]^4$,
+\[
+\frac{\partial\,\mathrm{CMXI}}{\partial\mu_i}=\frac{w_i}{\mu_i}\,\mathrm{CMXI}(\mu)>0 .
+\]
+
+(A3) On $(0,1]^4$, $\log\mathrm{CMXI}=\sum_i w_i\log\mu_i$. Along a level set on which only $\mu_i$ and $\mu_j$ vary, $w_i\,d\mu_i/\mu_i+w_j\,d\mu_j/\mu_j=0$, so
+\[
+\frac{d\mu_j}{d\mu_i}=-\frac{w_i}{w_j}\cdot\frac{\mu_j}{\mu_i},
+\]
+whose absolute value grows without bound as $\mu_i\to0^{+}$ for any fixed $\mu_j>0$.
+
+(A4) $\mathrm{CMXI}(\lambda\mu)=\prod_i(\lambda\mu_i)^{w_i}=\lambda^{\sum_i w_i}\,\mathrm{CMXI}(\mu)=\lambda\,\mathrm{CMXI}(\mu)$.
+
+For the arithmetic mean, take $\mu=(0,1,1,1)$. Then $G_A(\mu)=1-w_1>0$, so (A1) fails: an explanation with zero faithfulness receives a positive score. Along a level set of $G_A$, $d\mu_j/d\mu_i=-w_i/w_j$ is constant, so (A3) fails for every choice of weights.
+\end{proof}
+
+\begin{remark}
+The arithmetic mean does have properties (A2) and (A4); the difference between the two aggregations lies in (A1) and (A3). Property (A3) is the one that matters in use. Under an arithmetic aggregation, a map concentrated on a single voxel has conciseness close to 1 and can offset faithfulness close to 0. Under CMXI it cannot. The proposition concerns the aggregation step only. It says nothing about whether the four components are the right measurements, and it does not show that the index agrees with the judgement of radiologists.
+\end{remark}
+
+\section*{S2\quad Equations of the reference design}
+
+This section gives the equations of the CLARITY-CT reference design that the article describes in words. A lobe segmentation model supplies masks $A_\ell$ for the five lobes, $\ell=1,\dots,L$, and their union $A^{+}$. A volumetric encoder produces a feature vector $\phi_u$ at each position $u$ of a coarse grid. Features are pooled within each lobe with learned attention weights $\alpha_u^{(\ell)}$ that sum to one over the lobe, and the lobar descriptors are combined in proportion to lobe volume:
+\[
+z_\ell=\sum_{u\in A_\ell}\alpha_u^{(\ell)}\phi_u,\qquad z=\sum_{\ell=1}^{L}\pi_\ell\left(z_\ell+e_\ell\right),\qquad \pi_\ell=\frac{|A_\ell|}{|A^{+}|},\tag{S1}
+\]
+where $e_\ell$ is a learned lobe embedding. Concepts are predicted for each lobe and for the whole lung with shared weights, and each finding $c$ is predicted from the concepts through non-negative weights:
+\[
+c_{k\ell}=\sigma\left(w_k^{\top}z_\ell+b_k\right),\qquad \hat{y}_c=\sigma\left(\sum_{k=1}^{K}W_{ck}^{+}c_k+\gamma\,v_c^{\top}r+b_c\right),\qquad W_{ck}^{+}\ge 0.\tag{S2}
+\]
+Here $\sigma$ is the logistic function, $c_k$ is the whole-lung value of concept $k$, and $r$ is a residual pathway with gate $\gamma$ that carries information not expressible in the concepts. The leakage gap is the loss of discrimination when the residual is switched off:
+\[
+\Delta_{\mathrm{leak}}=\mathrm{AUC}\left(\hat{y}\right)-\mathrm{AUC}\left(\hat{y}\mid\gamma=0\right),\tag{S3}
+\]
+where AUC is the area under the receiver operating characteristic curve. The anatomical evidence mass and the alignment penalty are defined in Equation 1 of the article.
+
+\section*{S3\quad Exactness of lobar evidence accounting}
+
+In the proposed design, the global descriptor is $z=\sum_{\ell=1}^{L}\pi_\ell\,(z_\ell+e_\ell)$, where $z_\ell$ is the descriptor of lobe $\ell$, $e_\ell$ a learned lobe embedding and $\pi_\ell=|A_\ell|/|A^{+}|$ the volume fraction of the lobe. Let $F$ be a differentiable head applied to $z$. The gradient-times-input attribution of the head at $z$ is $\langle\nabla_z F(z),\,z\rangle$.
+
+\begin{proposition}
+Define the contribution of lobe $\ell$ as $\Delta_\ell F=\pi_\ell\,\langle\nabla_z F(z),\,z_\ell+e_\ell\rangle$. Then
+\[
+\sum_{\ell=1}^{L}\Delta_\ell F=\langle\nabla_z F(z),\,z\rangle .
+\]
+If, in addition, $F(z)=g\!\left(w^{\top}z+b\right)$ for a fixed vector $w$, scalar $b$ and link function $g$, then the score before the link satisfies
+\[
+w^{\top}z+b=\sum_{\ell=1}^{L}\pi_\ell\,w^{\top}(z_\ell+e_\ell)+b
+\]
+exactly, with no remainder term.
+\end{proposition}
+
+\begin{proof}
+Both statements follow from the linearity of the inner product in its second argument:
+$\langle\nabla_z F(z),z\rangle=\big\langle\nabla_z F(z),\sum_\ell\pi_\ell(z_\ell+e_\ell)\big\rangle=\sum_\ell\pi_\ell\langle\nabla_z F(z),z_\ell+e_\ell\rangle$, and likewise $w^{\top}z=\sum_\ell\pi_\ell\,w^{\top}(z_\ell+e_\ell)$.
+\end{proof}
+
+\begin{remark}
+The result is an arithmetic identity, and its scope is narrow. It states that evidence is assigned among lobes without the interpolation that is needed when a coarse saliency map is upsampled to the image. It does not make the assignment clinically correct. The mapping from voxels to features inside a lobe remains approximate, and the identity presupposes that the lobe masks are correct.
+\end{remark}
+
+\section*{S4\quad Initial concept vocabulary}
+
+Table S1 lists the 23 descriptors proposed as a starting vocabulary for the concept layer. They are based on Fleischner Society terminology for thoracic imaging (reference 8 of the article). Several entries combine a glossary term with a qualifier of location, distribution or size. The list has not been reviewed by thoracic radiologists and is intended to be revised with them before any implementation.
+
+\begin{center}
+\textbf{Table S1} Initial vocabulary of 23 radiological descriptors for the concept layer\\[4pt]
+\begin{tabular}{rl@{\hspace{10mm}}rl}
+\toprule
+No. & Descriptor & No. & Descriptor\\
+\midrule
+1 & Ground-glass opacity, peripheral & 13 & Air trapping (expiratory)\\
+2 & Ground-glass opacity, central & 14 & Centrilobular nodule\\
+3 & Crazy-paving pattern & 15 & Perilymphatic nodule\\
+4 & Consolidation with air bronchogram & 16 & Solid nodule, 6 mm or larger\\
+5 & Consolidative margin, lobar & 17 & Subsolid nodule\\
+6 & Interlobular septal thickening & 18 & Spiculated margin\\
+7 & Intralobular reticulation, subpleural & 19 & Centrilobular low attenuation (emphysema)\\
+8 & Honeycomb cyst cluster & 20 & Paraseptal low attenuation\\
+9 & Traction bronchiectasis & 21 & Bronchial wall thickening\\
+10 & Lower-zone predominance & 22 & Pleural thickening or plaque\\
+11 & Upper-zone predominance & 23 & Pleural fluid, dependent\\
+12 & Mosaic attenuation & & \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\newpage
+\section*{S5\quad Records verified and included, by search theme}
+
+\begin{center}
+\textbf{Table S2} Number of records verified and number included in the review for each of the seven search themes\\[4pt]
+\begin{tabular}{p{105mm}rr}
+\toprule
+Search theme & Verified & Included\\
+\midrule
+Earlier reviews of explainable AI in medical imaging & 16 & 9\\
+Post hoc attribution on chest CT & 22 & 14\\
+Concept-based models & 24 & 12\\
+Anatomically structured, prototype-based, counterfactual and attention-based methods & 23 & 14\\
+Vision-language and report-generating models for CT & 16 & 10\\
+Evaluation of explanations\textsuperscript{a} & 26 & 14\\
+Clinical, regulatory and reporting context & 20 & 12\\
+\midrule
+Total & 147 & 85\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textsuperscript{a} Includes one reader study from 2022, found while the statement that no such study had been published in 2025 or 2026 was being checked. Records are counted under the theme in which they were found; a source may be cited in more than one section of the article.
+\end{document}

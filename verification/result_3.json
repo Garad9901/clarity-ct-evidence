@@ -1,0 +1,404 @@
+[
+ {
+  "ref_no": 43,
+  "opened": [
+   "https://link.springer.com/article/10.1186/s41747-024-00539-w"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Böttcher et al. [43] | Interstitial lung disease diagnosis | 28 cases",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A reader study of a similar-case retrieval system for interstitial lung disease,",
+    "verdict": "partly",
+    "note": "28 cases, three readers (two residents, one expert) and the non-significant rise in resident accuracy from 35.7% to 53.6% (p = 0.302) are as stated. But the two figures come from different comparisons: 35.7% to 53.6% is baseline against the optional-retrieval session (retrieval used in 15 of 28 cases), whereas 104 s to 54 s is baseline against the mandatory-retrieval session. The 104 to 54 s figure is image reading time only; in that same comparison research time rose from 31 to 81 s and overall time per case (166 s against 145 s, p = 0.356) did not differ significantly. The sentence reads as if total reading time roughly halved alongside the accuracy change."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 44,
+  "opened": [
+   "https://arxiv.org/abs/2502.07156",
+   "alphaXiv full text of arXiv:2502.07156v2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "arXiv listing shows v2 dated 2 April 2025, no journal reference.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Cohen et al. [44]^b | Pleural effusion and other classifiers | 399 te",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A preprint extends a latent-shift method to whole three-dimensional CT classifie",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 45,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s13755-025-00404-z"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Publisher page truncates the author list after the eighth name; first three authors, title, journal, volume 14, article 20, 2026 and DOI agree.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Paolo et al. [45] | Survival in lung cancer | LUNG1, 422 patients, an",
+    "verdict": "partly",
+    "note": "LUNG1 with 422 patients (415 after exclusions) and a private cohort (CLARO, 119 patients) are as stated, as is 'averaged weights and one case inspected'. The last cell, 'Examples only', understates slightly: the source averaged the attention weights over all test patients and all 10 folds to give a mean distribution along the scan (higher in basal regions) and then showed one patient. There was no validation against clinician annotations."
+   },
+   {
+    "claim": "In survival prediction for lung cancer, attention pooling over slices was not si",
+    "verdict": "supported",
+    "note": "Source: difference from average pooling not significant (p = 0.5450). Weights were averaged over patients and folds and read descriptively, plus one case; no formal validation."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 46,
+  "opened": [
+   "https://www.nature.com/articles/s41746-025-01594-2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Hu et al. [46] | Pulmonary embolism | RSPECT, 6,958 training examinat",
+    "verdict": "supported"
+   },
+   {
+    "claim": "For pulmonary embolism, a model trained with about a quarter of the slice labels",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 47,
+  "opened": [
+   "https://iclr.cc/virtual/2025/poster/28403",
+   "alphaXiv full text of arXiv:2501.14548v1 (marked 'Published as a conference paper at ICLR 2025')"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Shui et al. [47] | Zero-shot diagnosis | 69,086 patients | Prediction",
+    "verdict": "partly",
+    "note": "69,086 patients and zero-shot diagnosis are as stated. 'None reported' for evaluation of the explanation is not quite what the source shows: the paper presents activation-map visualisations (its Fig. 1 and an appendix section on visualisation) and says they demonstrate better localisation and interpretability than CLIP. These are qualitative examples only; there is no quantitative evaluation of the explanation."
+   },
+   {
+    "claim": "Aligning each anatomical region with the report sentences that describe it ties ",
+    "verdict": "supported",
+    "note": "The source describes matching each anatomical region with its report description and contrastive training per anatomy; 'ties a prediction to a named organ' is the article's wording, the source speaks of anatomy-level interpretation."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 48,
+  "opened": [
+   "https://api.crossref.org/works?filter=doi:10.1109/tmi.2025.3559923&select=title,author,volume,issue,page,article-number,container-title,issued",
+   "alphaXiv full text of arXiv:2411.15539v2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: vol 44, issue 8, pp 3139-3150, August 2025, four authors as printed. Claims were checked against the arXiv version (v2, 5 May 2025), not the IEEE text.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Chen et al. [48] | Report generation | RadGenome-ChestCT | Text tied ",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Region-guided report generation writes the findings region by region for 10 anat",
+    "verdict": "supported",
+    "note": "Source table: region recognition F1 0.96 to 0.998 for eight regions, 0.443 for lung and 0.442 for pleura; limitations section says features are organ-level and lesions may be missed or mislocated."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 49,
+  "opened": [
+   "https://api.crossref.org/works/10.1109/ISBI60581.2025.10981073",
+   "alphaXiv full text of arXiv:2408.11965v8"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref gives pages as 01-05 and publication date 2025-04-14. Claims were checked against the arXiv version, not the IEEE text.",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Di Piazza et al. [49] | Report generation | CT-RATE | One sentence pe",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Generating one sentence for each predicted abnormality makes every sentence trac",
+    "verdict": "supported",
+    "note": "Source: a sentence is generated for each abnormality predicted by the classifier; no localisation and no evaluation of explanations appear in the paper. 'Traceable' is the article's inference; the source speaks of control over generation."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 50,
+  "opened": [
+   "https://api.crossref.org/works/10.1007/978-3-032-37435-6_34",
+   "https://link.springer.com/book/10.1007/978-3-032-37435-6",
+   "alphaXiv full text of arXiv:2506.23102v3"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref and the Springer book page confirm LNCS vol 17039, pp 628-646, 2026, first online 12 Sept 2026. The printed reference does not name the proceedings (Computer Vision - ECCV 2026, Part XXXIX). The chapter landing page itself could not be opened (HTTP 429); claims were checked against arXiv v3 (6 July 2026).",
+  "claims": [
+   {
+    "claim": "TABLE ROW: Kyung et al. [50]^a | Report generation | Multi-institutional structu",
+    "verdict": "supported",
+    "note": "Source: benchmarks built from RadGenome-ChestCT plus an external single-hospital set, reports standardised into six organ sections."
+   },
+   {
+    "claim": "A region-aware language model organises the report by anatomical region and was ",
+    "verdict": "supported",
+    "note": "Evaluation is by language-overlap metrics and language-model-based clinical scores, with a radiologist reader study and a mask-perturbation test in the supplement, all about report content. No measurement of whether text matches the named region was seen."
+   }
+  ],
+  "notices": "Chapter landing page not opened; Crossref record shows no update or retraction."
+ },
+ {
+  "ref_no": 51,
+  "opened": [
+   "https://api.crossref.org/works/10.1007/s11263-019-01228-7",
+   "alphaXiv full text of arXiv:1610.02391v4"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: vol 128, issue 2, pp 336-359, print 2020 (online Oct 2019). Publisher page could not be opened (HTTP 429); claim checked against arXiv v4.",
+  "claims": [
+   {
+    "claim": "Grad-CAM weights the feature maps of the last convolutional layer by the gradien",
+    "verdict": "supported"
+   }
+  ],
+  "notices": "Publisher page not opened; Crossref record shows no update."
+ },
+ {
+  "ref_no": 52,
+  "opened": [
+   "https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "SHAP assigns each input feature an additive importance value for an individual p",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 53,
+  "opened": [
+   "https://proceedings.mlr.press/v119/koh20a.html"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "A concept bottleneck model first predicts concepts that people have specified an",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 54,
+  "opened": [
+   "https://papers.nips.cc/paper_files/paper/2022/hash/944ecf65a46feb578a43abfd5cddd960-Abstract-Conference.html"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Proceedings page gives vol 35, pp 23386-23397, DOI 10.52202/068431-1699. The DOI link itself returned HTTP 429 and was not opened.",
+  "claims": [
+   {
+    "claim": "The approach has a known weakness: when soft concept predictions are passed to t",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Because a residual pathway invites the leakage described for concept bottleneck ",
+    "verdict": "partly",
+    "note": "The abstract (all that was read) describes leakage arising when the label predictor is trained on concept probabilities. It does not say that a residual pathway invites leakage; that link is the article's own inference, and the 'leakage gap' measure is the article's, not the source's. Full text was not read, so what the paper says about side channels could not be seen."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 55,
+  "opened": [
+   "https://api.openalex.org/works/doi:10.1118/1.3528204?select=title,authorships,biblio,publication_year,primary_location,is_retracted,abstract_inverted_index",
+   "https://www.cancerimagingarchive.net/collection/lidc-idri/"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref could not be read (error, then HTTP 429); details taken from OpenAlex and the archive's own citation: Med Phys 38(2):915-931, 2011.",
+  "claims": [
+   {
+    "claim": "Four studies were found, all on pulmonary nodule malignancy and all relying on r",
+    "verdict": "supported",
+    "note": "Abstract: 1,018 cases, each scan annotated by four experienced thoracic radiologists in a two-phase process. The archive page confirms that readers rated nodule characteristics. The count of four studies is the article's own finding and cannot be checked against this source."
+   },
+   {
+    "claim": "The first stage is implementation on public data: CT-RATE for multi-abnormality ",
+    "verdict": "supported",
+    "note": "Use of the database is the article's own plan; the source is the correct citation for it."
+   }
+  ],
+  "notices": "OpenAlex: not retracted. Publisher page not opened."
+ },
+ {
+  "ref_no": 56,
+  "opened": [
+   "https://www.ijcai.org/proceedings/2025/1147"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "An expert-guided concept bottleneck for chest radiographs gave concept explanati",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 57,
+  "opened": [
+   "https://www.ijcai.org/proceedings/2025/60",
+   "alphaXiv full text of arXiv:2506.12568v1"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Claim checked against the arXiv version, not the IJCAI PDF.",
+  "claims": [
+   {
+    "claim": "Concepts generated by a large language model and matched to the layers of a biom",
+    "verdict": "partly",
+    "note": "Seven datasets and a BiomedCLIP encoder with concepts matched across layers are as stated; concepts came from prompting a large language model for diagnostic criteria (the paper says concepts may come from a language model or human experts). Two details differ. (1) The gain is over other concept models on all seven; against the black-box ViT, balanced accuracy on one dataset (IDRiD) was lower (65.50 against 66.61). (2) 'Concept accuracy ... was not evaluated' is too flat: the paper trains with a concept-label loss and shows a figure of concept-prediction accuracy by encoder layer in its motivation. It is true that the results tables report only classification metrics and that interpretability is shown by example cases; the origin of the concept labels (expert or derived) is not stated in the text read."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 58,
+  "opened": [
+   "https://api.crossref.org/works/10.1109/TMI.2026.3690077",
+   "alphaXiv full text of arXiv:2506.16742v2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: vol 45, issue 7, pp 3974-3985, July 2026, six authors as printed. Claims were checked against the arXiv version (v2, Sept 2025), not the IEEE text.",
+  "claims": [
+   {
+    "claim": "A concept-querying model that accounts for the uncertainty of each concept predi",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The uncertainty of each concept prediction can be carried forward, as has been d",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 59,
+  "opened": [
+   "https://www.nature.com/articles/s41467-025-58801-7"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In ophthalmology, concept-based support raised the accuracy of six inexperienced",
+    "verdict": "supported",
+    "note": "Source: six less experienced ophthalmologists, accuracy 51.9% to 65.5%; two senior ophthalmologists 91.4% both with and without."
+   }
+  ],
+  "notices": "Author Correction published 12 May 2025 (DOI 10.1038/s41467-025-59792-1); the page does not say what was changed. The article is not cited with its correction."
+ },
+ {
+  "ref_no": 60,
+  "opened": [
+   "https://www.nature.com/articles/s41551-026-01764-x"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Page gives no volume or issue yet; published 17 August 2026.",
+  "claims": [
+   {
+    "claim": "In ophthalmology, concept-based support raised the accuracy of six inexperienced",
+    "verdict": "supported",
+    "note": "Abstract only (article is behind a paywall): a user study across three modalities found the concept explanations helped clinicians verify predictions and spot errors. Study size and design could not be seen."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 61,
+  "opened": [
+   "https://link.springer.com/article/10.1186/s41747-025-00623-9"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "In a benchmark on 164 scans, public lobe segmentation tools lost accuracy on com",
+    "verdict": "partly",
+    "note": "164 scans and the loss of accuracy of the open-source tools on hard cases are as stated. 'Handled missing lobes more reliably' rests on 3 of 7 test cases for the local model against 1 of 7 for LungMask and none for the other two; the authors say the small number limits generalisation, and on the external set the local model produced false positives where a lung was missing. The sentence states the result without that limit."
+   },
+   {
+    "claim": "A lobe segmentation model supplies masks $A_\\ell$ for the five lobes, $\\ell = 1,",
+    "verdict": "supported",
+    "note": "Article's own design statement; the source supports that lobe masks are unreliable on difficult anatomy."
+   },
+   {
+    "claim": "The first stage is implementation on public data: CT-RATE for multi-abnormality ",
+    "verdict": "supported",
+    "note": "Article's own plan; consistent with the source."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 62,
+  "opened": [
+   "https://proceedings.neurips.cc/paper/2019/hash/adf7ee2dcf142b0e11888e72b43fcb75-Abstract.html"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "The prototypical part network classifies an image by comparing its parts with le",
+    "verdict": "supported",
+    "note": "Abstract only: the network finds prototypical parts and combines evidence from the prototypes. The statement that no other peer-reviewed chest CT prototype network was found is the article's own search result and cannot be checked against this source."
+   },
+   {
+    "claim": "Alongside the lobar and concept outputs, the design returns similar past cases t",
+    "verdict": "supported",
+    "note": "Article's own design statement; the source is the origin of the prototype approach."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 63,
+  "opened": [
+   "https://api.crossref.org/works/10.1016/j.csbj.2025.06.008"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Publisher page not opened (ScienceDirect); details and abstract from Crossref: vol 27, pp 2649-2660, 2025, seven authors.",
+  "claims": [
+   {
+    "claim": "The prototypical part network classifies an image by comparing its parts with le",
+    "verdict": "supported",
+    "note": "Abstract only: ProtoPNet classifies lesions in tomosynthesis after a detection stage, and expert radiologists validated the system through clinical feedback. How that feedback was collected could not be seen."
+   }
+  ],
+  "notices": "Crossref record shows no correction or retraction; publisher page not opened."
+ }
+]

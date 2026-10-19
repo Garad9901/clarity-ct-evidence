@@ -1,0 +1,180 @@
+[
+ {
+  "ref_no": 1,
+  "reference": "1. Bray F, Laversanne M, Sung H, et al: Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin 74:229-263, 2024. https://doi.org/10.3322/caac.21834",
+  "claims_in_paper": [
+   "Lung cancer was the most frequently diagnosed cancer and the leading cause of cancer death worldwide in 2022, with almost 2.5 million new cases and about 1.8 million deaths [1]."
+  ]
+ },
+ {
+  "ref_no": 2,
+  "reference": "2. Bhamani A, Creamer A, Verghese P, et al: Low-dose CT for lung cancer screening in a high-risk population (SUMMIT): a prospective, longitudinal cohort study. Lancet Oncol 26:609-619, 2025. https://doi.org/10.1016/S1470-2045(25)00082-8",
+  "claims_in_paper": [
+   "Low-dose computed tomography (CT) screening is now being delivered to large high-risk populations [2], and projections based on insurance claims indicate that imaging use will continue to rise with population growth and ageing [3]."
+  ]
+ },
+ {
+  "ref_no": 3,
+  "reference": "3. Christensen EW, Drake AR, Parikh JR, Rubin EM, Rula EY: Projected US Imaging Utilization, 2025 to 2055. J Am Coll Radiol 22:151-158, 2025. https://doi.org/10.1016/j.jacr.2024.10.017",
+  "claims_in_paper": [
+   "Low-dose computed tomography (CT) screening is now being delivered to large high-risk populations [2], and projections based on insurance claims indicate that imaging use will continue to rise with population growth and ageing [3]."
+  ]
+ },
+ {
+  "ref_no": 4,
+  "reference": "4. Antonissen N, Venkadesh KV, Dinnessen R, et al: External Test of a Deep Learning Algorithm for Pulmonary Nodule Malignancy Risk Stratification Using European Screening Data. Radiology 316:e250874, 2025. https://doi.org/10.1148/radiol.250874",
+  "claims_in_paper": [
+   "A nodule malignancy-risk model trained on one screening trial reached areas under the curve (AUC) between 0.94 and 0.98 when tested on 4,146 participants pooled from three European screening trials [4], and a commercial system has been judged feasible as a first reader for ruling out negative baseline screening scans [5]."
+  ]
+ },
+ {
+  "ref_no": 5,
+  "reference": "5. Walstra ANH, Lancaster HL, Heuvelmans MA, et al: Feasibility of AI as first reader in the 4-IN-THE-LUNG-RUN lung cancer screening trial: impact on negative-misclassifications and clinical referral rate. Eur J Cancer 216:115214, 2025. https://doi.org/10.1016/j.ejca.2024.115214",
+  "claims_in_paper": [
+   "A nodule malignancy-risk model trained on one screening trial reached areas under the curve (AUC) between 0.94 and 0.98 when tested on 4,146 participants pooled from three European screening trials [4], and a commercial system has been judged feasible as a first reader for ruling out negative baseline screening scans [5]."
+  ]
+ },
+ {
+  "ref_no": 6,
+  "reference": "6. Lee JH, Chae KJ, Lu MT, et al: External Testing of a Deep Learning Model for Lung Cancer Risk from Low-Dose Chest CT. Radiology 316:e243393, 2025. https://doi.org/10.1148/radiol.243393",
+  "claims_in_paper": [
+   "When an open-source lung cancer risk model was tested in 18,057 adults from an Asian health check-up centre, its AUC for predicting future cancers fell to 0.56 in never-smokers and light smokers [6].",
+   "The third stage is external testing, because performance on one population does not guarantee performance on another [6]."
+  ]
+ },
+ {
+  "ref_no": 7,
+  "reference": "7. Rudin C: Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. Nat Mach Intell 1:206-215, 2019. https://doi.org/10.1038/s42256-019-0048-x",
+  "claims_in_paper": [
+   "One position holds that post hoc explanation of black-box models is unreliable in high-stakes settings and that models should be interpretable by design [7].",
+   "A second route to interpretability is to build structure into the model so that the output itself is the explanation [7]."
+  ]
+ },
+ {
+  "ref_no": 8,
+  "reference": "8. Blackman J, Veerapen R: On the practical, ethical, and legal necessity of clinical Artificial Intelligence explainability: an examination of key arguments. BMC Med Inform Decis Mak 25:111, 2025. https://doi.org/10.1186/s12911-025-02891-2",
+  "claims_in_paper": [
+   "A review of the published arguments concluded that fully autonomous black-box use is ruled out, but that a general requirement for explainability is not established where a clinician remains in the loop [8].",
+   "The argument that explanation is not always required when a clinician stays in the loop [8] does not remove the need to know what an explanation does to that clinician."
+  ]
+ },
+ {
+  "ref_no": 9,
+  "reference": "9. Lekadir K, Frangi AF, Porras AR, et al: FUTURE-AI: international consensus guideline for trustworthy and deployable artificial intelligence in healthcare. BMJ 388:e081554, 2025. https://doi.org/10.1136/bmj-2024-081554",
+  "claims_in_paper": [
+   "The FUTURE-AI consensus guideline, developed by 117 experts from 50 countries, lists explainability among its six principles and recommends that the need for explanations be decided with end users and that explanations be evaluated both computationally and with end users [9].",
+   "In the terms of the four criteria proposed for heat maps it does not measure usefulness [76], and guidance asks that explanations be evaluated with end users as well as computationally [9].",
+   "Guidance already asks for this dual evaluation [9], and regulation in Europe requires human oversight while its standards for transparency are still being written [10].",
+   "Reporting should follow current consensus guidance [9]."
+  ]
+ },
+ {
+  "ref_no": 10,
+  "reference": "10. Kotter E, Akinci D'Antonoli T, Cuocolo R, et al: Guiding AI in radiology: ESR's recommendations for effective implementation of the European AI Act. Insights Imaging 16:33, 2025. https://doi.org/10.1186/s13244-025-01905-x",
+  "claims_in_paper": [
+   "The European Society of Radiology notes that medical imaging AI falls in the high-risk class of the European AI Act, which requires trained human oversight, and that methods and standards for transparency and explainability are still under development [10].",
+   "Guidance already asks for this dual evaluation [9], and regulation in Europe requires human oversight while its standards for transparency are still being written [10]."
+  ]
+ },
+ {
+  "ref_no": 11,
+  "reference": "11. Kim SH, Adams LC, Wiestler B, Hedderich DM: Human-AI Collaboration in Radiology: The Blind Spots. Radiol Artif Intell 8:e260325, 2026. https://doi.org/10.1148/ryai.260325",
+  "claims_in_paper": [
+   "A recent special report adds that the interaction between radiologists and AI output, including automation bias and interface design, has received far less study than stand-alone model accuracy [11]."
+  ]
+ },
+ {
+  "ref_no": 12,
+  "reference": "12. Ahmed F, Naz NS, Khan S, Rehman AU, Ismael WM, Khan MA: Explainable artificial intelligence (XAI) in medical imaging: a systematic review of techniques, applications, and challenges. BMC Med Imaging 26:37, 2026. https://doi.org/10.1186/s12880-025-02118-w",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Ahmed et al. [12] | All medical imaging | PRISMA systematic review, 133 studies | Attribution, attention, LIME and SHAP, rule-based | Lack of standard measures noted | No",
+   "A review of lung cancer studies found that only six articles compared explanation methods with each other [21], and a general systematic review named the lack of standard interpretability measures as a gap [12]."
+  ]
+ },
+ {
+  "ref_no": 13,
+  "reference": "13. Saw SN, Yan YY, Ng KH: Current status and future directions of explainable artificial intelligence in medical imaging. Eur J Radiol 183:111884, 2025. https://doi.org/10.1016/j.ejrad.2024.111884",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Saw et al. [13] | Radiology | Narrative review | Inherent and post hoc methods^a | Not stated^a | No",
+   "A narrative review for radiologists concluded that current explanation methods are not yet mature enough for clinical use because their outputs are hard for medical experts to interpret [13]."
+  ]
+ },
+ {
+  "ref_no": 14,
+  "reference": "14. Durak G, Aktas HE, Akinci D'Antonoli T, Bagci U: Explainable artificial intelligence in medical imaging: how to interpret, evaluate, and use artificial intelligence explanations. Diagn Interv Radiol, DOI: 10.4274/dir.2026.264319, August 21, 2026",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Durak et al. [14] | Radiology | Narrative educational review | Attribution, concept-based, example-based, text | Major theme | No",
+   "Authors from the United States Food and Drug Administration set out four criteria for heat maps, namely consistency, plausibility, fidelity and usefulness, with a reporting card [76], and an educational review for radiologists distinguishes plausibility from faithfulness and stresses that explanations are tools for oversight, not proof of correctness [14]."
+  ]
+ },
+ {
+  "ref_no": 15,
+  "reference": "15. Hou J, Liu S, Bie Y, et al: Self-eXplainable AI for medical image analysis: A survey and new outlooks. Inf Fusion 139:104791, 2027. https://doi.org/10.1016/j.inffus.2026.104791",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Hou et al. [15] | All medical imaging | Survey, more than 200 papers | Concept, prototype, text, counterfactual; post hoc attribution excluded | Dedicated section | No",
+   "Recent surveys describe a rapid growth of such models, including concepts generated by large language models and designs that relax the strict bottleneck [15, 16]."
+  ]
+ },
+ {
+  "ref_no": 16,
+  "reference": "16. Wang C, Li F, Hu W, Yan R, Zhang K, Zhou SK: Concept Bottleneck Models for Explainable Decision Making: A Survey of Progress, Taxonomy, and Future Directions. Proc Int Joint Conf Artif Intell (IJCAI), pp 8041-8049, 2026. https://doi.org/10.24963/ijcai.2026/892",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Wang et al. [16] | General machine learning, with attention to healthcare | Survey^a | Concept-based only | Evaluation and intervention standards | No",
+   "Recent surveys describe a rapid growth of such models, including concepts generated by large language models and designs that relax the strict bottleneck [15, 16]."
+  ]
+ },
+ {
+  "ref_no": 17,
+  "reference": "17. Ud Din S, Kemna R, Ket JCF, et al: Which explainable AI methods in medical imaging are clinically impactful? A systematic literature review addressing the clinician's perspective. Front Artif Intell 9:1819422, 2026. https://doi.org/10.3389/frai.2026.1819422",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Ud Din et al. [17] | All medical imaging, clinician-evaluated studies | PRISMA systematic review, 51 studies^a | Attribution, example-based, concept-based | Subject of the review | No",
+   "A systematic review of 51 studies in which clinicians evaluated explanations found that example-based and concept-based explanations were associated with gains, whereas attribution maps mainly improved perception, and it judged the evidence methodologically fragile [17]."
+  ]
+ },
+ {
+  "ref_no": 18,
+  "reference": "18. Vásquez-Venegas C, Wu C, Sundar S, et al: Detecting and Mitigating the Clever Hans Effect in Medical Imaging: A Scoping Review. J Imaging Inform Med 38:2563-2579, 2025. https://doi.org/10.1007/s10278-024-01335-z",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Vásquez-Venegas et al. [18] | All medical imaging, shortcut learning | Scoping review, 37 studies analysed in detail^a | Not stated^a | Not the focus | No",
+   "A scoping review concluded that most medical imaging studies neither test for nor report such shortcuts [18]."
+  ]
+ },
+ {
+  "ref_no": 19,
+  "reference": "19. Ishii R, Edwards RA, Gelbach PE, Alexander J Jr: A Scoping Review of Interpretable AI Model Approaches in Echocardiography: Frameworks, Model Types, Explanation Strategies, and Evaluation Practices. J Imaging Inform Med, DOI: 10.1007/s10278-026-02172-y, August 17, 2026",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "TABLE ROW: Ishii et al. [19] | Echocardiography | PRISMA-ScR scoping review, 170 studies | Attribution, intrinsically interpretable models | Central theme | No",
+   "In echocardiography, explanations were evaluated only qualitatively in 40.4% of end-to-end models against 1.6% of multistep models with an interpretable intermediate representation [19].",
+   "This agrees with counts from cancer imaging [20] and echocardiography [19], and it persists even in studies whose predictions were validated across centres."
+  ]
+ },
+ {
+  "ref_no": 20,
+  "reference": "20. Fotopoulos D, Ladakis I, Filos D, Moreno-Sánchez PA, van Gils M, Chouvarda I: Explainable AI in Cancer Imaging: Scoping Review of Methods, Modalities, and Clinical Integration. J Med Internet Res 28:e80645, 2026. https://doi.org/10.2196/80645",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "The closest in subject covers lung cancer across all modalities, with histopathology the most common modality among its included studies [21]; in the scoping review of cancer imaging, CT accounted for 37.5% of studies and lung for 23.5% [20].",
+   "TABLE ROW: Fotopoulos et al. [20] | Radiological cancer imaging | PRISMA-ScR scoping review, 371 studies | All families counted; post hoc 82.2% | Counted for every study | Partly (CT 37.5%, lung 23.5%)",
+   "In radiological cancer imaging, 48% of 371 studies reported no validation of the explanation, and among those that did, 53.9% relied on expert or user judgement and 5.2% on quantitative metrics [20].",
+   "This agrees with counts from cancer imaging [20] and echocardiography [19], and it persists even in studies whose predictions were validated across centres."
+  ]
+ },
+ {
+  "ref_no": 21,
+  "reference": "21. Koutoulakis E, Trivizakis E, Markodimitrakis E, Agelaki S, Tsiknakis M, Marias K: A critical review of explainable deep learning in lung cancer diagnosis. Artif Intell Rev 59:28, 2026. https://doi.org/10.1007/s10462-025-11445-x",
+  "claims_in_paper": [
+   "Explainable AI in medical imaging has been reviewed repeatedly, from general surveys [12-14] to reviews of inherently interpretable models [15, 16], of clinician-centred evaluation [17], of shortcut learning [18], and of single domains such as echocardiography [19], cancer imaging [20] and lung cancer [21].",
+   "The closest in subject covers lung cancer across all modalities, with histopathology the most common modality among its included studies [21]; in the scoping review of cancer imaging, CT accounted for 37.5% of studies and lung for 23.5% [20].",
+   "TABLE ROW: Koutoulakis et al. [21] | Lung cancer, all modalities | PRISMA-guided critical review | Attribution, attention, SHAP and LIME | Discussed | Partly (histopathology most common)",
+   "A review of lung cancer studies found that only six articles compared explanation methods with each other [21], and a general systematic review named the lack of standard interpretability measures as a gap [12]."
+  ]
+ }
+]

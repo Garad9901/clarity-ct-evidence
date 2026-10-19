@@ -1,0 +1,483 @@
+[
+ {
+  "ref_no": 1,
+  "opened": [
+   "https://api.crossref.org/works/10.3322/caac.21834"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Lung cancer was the most frequently diagnosed cancer and the leading cause of ca",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 2,
+  "opened": [
+   "https://api.crossref.org/works/10.1016/S1470-2045(25)00082-8",
+   "https://discovery-pp.ucl.ac.uk/id/eprint/10206995"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: Lancet Oncol 26(5):609-619, 2025; first three authors Bhamani, Creamer, Verghese. Publisher page (thelancet.com) could not be fetched; abstract read from the UCL repository record.",
+  "claims": [
+   {
+    "claim": "Low-dose computed tomography (CT) screening is now being delivered to large high",
+    "verdict": "supported",
+    "note": "For [2]: SUMMIT screened 12,773 high-risk people (USPSTF 2013 or PLCOm2012 >=1.3%) recruited from 329 London primary care practices; it is a prospective cohort study, which fits 'delivered to large high-risk populations'."
+   }
+  ],
+  "notices": "Crossref lists an erratum to this article: DOI 10.1016/s1470-2045(25)00204-9 (dated 1 May 2025). Content of the erratum not read. No retraction listed."
+ },
+ {
+  "ref_no": 3,
+  "opened": [
+   "https://api.crossref.org/works/10.1016/j.jacr.2024.10.017",
+   "https://scholarlywork.ochsner.org/display/c13281351"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: J Am Coll Radiol 22(2):151-158, 2025; authors Christensen, Drake, Parikh, Rubin, Rula. Publisher page (jacr.org) could not be fetched; abstract read from an institutional repository record.",
+  "claims": [
+   {
+    "claim": "Low-dose computed tomography (CT) screening is now being delivered to large high",
+    "verdict": "supported",
+    "note": "For [3]: abstract uses 2018-2022 claims data (Medicare 5% sample plus Inovalon commercial/Medicare Advantage/Medicaid claims); projects 2055 utilization 16.9% to 26.9% above 2023, with population growth 73-88% and ageing 12-27% of the increase."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 4,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/radiol.250874",
+   "https://pubs.rsna.org/doi/10.1148/radiol.250874"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "A nodule malignancy-risk model trained on one screening trial reached areas unde",
+    "verdict": "supported",
+    "note": "For [4]: trained on NLST; external test on 4,146 participants from NELSON, MILD and DLCST; pooled all-nodule AUCs 0.98 (1 year), 0.96 (2 years), 0.94 (whole screening period). Lower AUCs (0.90-0.95, and 0.79 in a size-matched subset) are reported for subsets, which the sentence does not mention."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 5,
+  "opened": [
+   "https://api.crossref.org/works/10.1016/j.ejca.2024.115214",
+   "https://pure.eur.nl/en/publications/feasibility-of-ai-as-first-reader-in-the-4-in-the-lung-run-lung-c/",
+   "https://air.unipr.it/handle/11381/3012874"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: Eur J Cancer 216:115214, 2025; first three authors Walstra, Lancaster, Heuvelmans. Publisher page (ejcancer.com) could not be fetched; abstract read from two repository records.",
+  "claims": [
+   {
+    "claim": "A nodule malignancy-risk model trained on one screening trial reached areas unde",
+    "verdict": "partly",
+    "note": "For [5]: the abstract supports the first-reader/rule-out role at baseline (3,678 baseline scans; AI 31 negative misclassifications vs 407 for radiologists) and concludes the AI 'shows promise' as first reader. The abstract calls the tool 'dedicated AI software' (AVIEW-LCS, Coreline Soft); the word 'commercial' was not seen in the abstract and the full text was not read. 'Judged feasible' rests on the title plus the 'shows promise' conclusion."
+   }
+  ],
+  "notices": "Crossref lists an erratum to this article: DOI 10.1016/j.ejca.2025.115294 (dated 11 March 2025). Content of the erratum not read. No retraction listed."
+ },
+ {
+  "ref_no": 6,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/radiol.243393",
+   "https://pubs.rsna.org/doi/10.1148/radiol.243393"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "When an open-source lung cancer risk model was tested in 18,057 adults from an A",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The third stage is external testing, because performance on one population does ",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 7,
+  "opened": [
+   "https://www.nature.com/articles/s42256-019-0048-x",
+   "arXiv:1811.10154v3 (read via alphaXiv answer_pdf_queries)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "One position holds that post hoc explanation of black-box models is unreliable i",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A second route to interpretability is to build structure into the model so that ",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 8,
+  "opened": [
+   "https://doi.org/10.1186/s12911-025-02891-2 (redirected)",
+   "https://link.springer.com/article/10.1186/s12911-025-02891-2"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "A review of the published arguments concluded that fully autonomous black-box us",
+    "verdict": "supported",
+    "note": "Abstract wording is that autonomous black-box use is 'compellingly discouraged'; the conclusion section says such use is 'compellingly preclude[d]'. The review is a systematized review of 34 publications."
+   },
+   {
+    "claim": "The argument that explanation is not always required when a clinician stays in t",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 9,
+  "opened": [
+   "https://www.bmj.com/content/388/bmj-2024-081554",
+   "https://www.bmj.com/content/388/bmj.r340"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "The FUTURE-AI consensus guideline, developed by 117 experts from 50 countries, l",
+    "verdict": "supported"
+   },
+   {
+    "claim": "In the terms of the four criteria proposed for heat maps it does not measure use",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Guidance already asks for this dual evaluation [9], and regulation in Europe req",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Reporting should follow current consensus guidance [9].",
+    "verdict": "partly",
+    "note": "FUTURE-AI is a consensus best-practice guideline for development and deployment across the AI lifecycle; it does not present itself as a reporting guideline. It contrasts itself with reporting guidelines (TRIPOD+AI, CLAIM, CONSORT-AI etc.) and, under Traceability 2, asks for documentation and a publication 'based on existing AI reporting standards'. Citing it as the guidance that reporting should follow is therefore indirect."
+   }
+  ],
+  "notices": "Correction notice dated 17 February 2025 (BMJ 388:r340): a consortium author's name (Henry C Woodruff) was misspelled and has been corrected. No retraction."
+ },
+ {
+  "ref_no": 10,
+  "opened": [
+   "https://doi.org/10.1186/s13244-025-01905-x (HTTP 429, not read)",
+   "https://insightsimaging.springeropen.com/articles/10.1186/s13244-025-01905-x (redirected)",
+   "https://link.springer.com/article/10.1186/s13244-025-01905-x"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "The European Society of Radiology notes that medical imaging AI falls in the hig",
+    "verdict": "supported",
+    "note": "Source says medical devices are 'inherently high-risk' under the Act, notes that Article 6 may exempt some narrow preparatory/procedural tasks, cites Article 14 (human oversight) and Article 4 (AI literacy, training and re-certification), and states that methods and standards for transparency and explainability remain under development."
+   },
+   {
+    "claim": "Guidance already asks for this dual evaluation [9], and regulation in Europe req",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 11,
+  "opened": [
+   "https://api.crossref.org/works/10.1148/ryai.260325",
+   "https://pubs.rsna.org/doi/10.1148/ryai.260325"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref record carries no volume; the RSNA page gives Volume 8, Number 5, published online 2 Sep 2026, article type 'Special Report'. Article number e260325 is in Crossref.",
+  "claims": [
+   {
+    "claim": "A recent special report adds that the interaction between radiologists and AI ou",
+    "verdict": "supported",
+    "note": "Source says research has focused on algorithm development and standalone performance while human-AI interaction is 'poorly understood' / 'critically understudied'; it covers automation bias and UI/UX design. No quantitative comparison of amounts of study is given."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 12,
+  "opened": [
+   "https://link.springer.com/article/10.1186/s12880-025-02118-w",
+   "https://api.crossref.org/works/10.1186/s12880-025-02118-w"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Ahmed et al. [12] | All medical imaging | PRISMA systematic review, 1",
+    "verdict": "supported",
+    "note": "PRISMA 2020, 133 studies, the listed technique families and the lack of standardized interpretability measures are all in the source. Scope detail: the inclusion criteria limit the review to radiology and pathology imaging (plus multimodal PET-CT, MRI-PET) rather than every imaging field."
+   },
+   {
+    "claim": "A review of lung cancer studies found that only six articles compared explanatio",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 13,
+  "opened": [
+   "https://knova.um.edu.my/research_publications_2021_2025/6350",
+   "https://ctisus.com/learning/journalclub/341959",
+   "https://api.crossref.org/works/10.1016/j.ejrad.2024.111884 (fetch error, three attempts, not read)",
+   "https://www.ejradiology.com/article/S0720-048X(24)00601-7/abstract (fetch error, not read)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Checked only against two secondary records (University of Malaya repository and a CTisus journal-club page), which agree on authors Saw, Yan, Ng; Eur J Radiol; volume 183; article 111884; DOI. The Crossref record and the publisher page could not be opened. One secondary page gives the online date as 6 Dec 2024; the volume year 2025 comes from the repository record.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Saw et al. [13] | Radiology | Narrative review | Inherent and post ho",
+    "verdict": "supported",
+    "note": "Abstract describes a narrative review covering inherent and post hoc explainability and heatmap explanations in commercial systems; evaluation of explanations is not mentioned in the abstract. Only the abstract was read."
+   },
+   {
+    "claim": "A narrative review for radiologists concluded that current explanation methods a",
+    "verdict": "supported"
+   }
+  ],
+  "notices": "Not checked: the publisher landing page and Crossref record could not be opened."
+ },
+ {
+  "ref_no": 14,
+  "opened": [
+   "https://www.dirjournal.org/articles/doi/dir.2026.264319"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Durak et al. [14] | Radiology | Narrative educational review | Attrib",
+    "verdict": "partly",
+    "note": "Review type, radiology audience, evaluation as a major theme and 'not chest CT' are supported. Families: the review covers attribution/saliency (incl. LIME, SHAP), concept-based (TCAV, ACE) and example-based (counterfactual, prototype) methods plus uncertainty quantification. Text explanations are not one of its categories; natural-language rationales from vision-language models appear only under future directions, with a caution."
+   },
+   {
+    "claim": "Authors from the United States Food and Drug Administration set out four criteri",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 15,
+  "opened": [
+   "https://api.crossref.org/works/10.1016/j.inffus.2026.104791",
+   "https://arxiv.org/abs/2410.02331",
+   "arXiv:2410.02331v2 and v3 (read via alphaXiv answer_pdf_queries)"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: Information Fusion vol 139, article 104791, published March 2027; authors Hou, Liu, Bie, Wang, Tan, Luo, Chen. Year 2027 in the printed reference agrees with Crossref. Content was read from the arXiv version (v3 dated 26 Sep 2026), not the publisher version.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Hou et al. [15] | All medical imaging | Survey, more than 200 papers ",
+    "verdict": "partly",
+    "note": "'More than 200 papers', all-modality scope and a dedicated evaluation section (Section 6) are supported, and post hoc methods are outside its scope. The family list is incomplete: the survey's taxonomy also includes attention-based learning (a full model-explainability category) and input explainability via feature engineering and knowledge graphs."
+   },
+   {
+    "claim": "Recent surveys describe a rapid growth of such models, including concepts genera",
+    "verdict": "partly",
+    "note": "Growth of self-explainable papers and LLM/VLM-generated concepts ('generative concept learning') are in the survey. A discussion of designs that relax the strict bottleneck was not found in the arXiv pages read (CBM variants are listed, but not framed that way); that part is supported by [16], not seen in [15]."
+   }
+  ],
+  "notices": "None in Crossref. Publisher page not opened."
+ },
+ {
+  "ref_no": 16,
+  "opened": [
+   "https://www.ijcai.org/proceedings/2026/892",
+   "https://www.ijcai.org/proceedings/2026/0892.pdf"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (Survey Track), pp 8041-8049, 2026.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Wang et al. [16] | General machine learning, with attention to health",
+    "verdict": "supported",
+    "note": "Source consolidates evaluation and intervention protocols and calls for intervention-aware evaluation protocols; it does not use the word 'standards'."
+   },
+   {
+    "claim": "Recent surveys describe a rapid growth of such models, including concepts genera",
+    "verdict": "supported",
+    "note": "Source speaks of 'rapid progress', covers LLM/VLM-guided concept generation, and reviews architectures beyond strict bottlenecks (soft, residual, hybrid, side-channel, embedding-based)."
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 17,
+  "opened": [
+   "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1819422/full"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Ud Din et al. [17] | All medical imaging, clinician-evaluated studies",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A systematic review of 51 studies in which clinicians evaluated explanations fou",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 18,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s10278-024-01335-z (HTTP 429, not read)",
+   "https://api.crossref.org/works/10.1007/s10278-024-01335-z",
+   "https://dspace.mit.edu/handle/1721.1/162369?show=full"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref: vol 38, issue 4, pages 2563-2579; first online 25 Nov 2024, issue dated Aug 2025. Publisher page not read (HTTP 429); abstract read from the MIT DSpace record.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Vásquez-Venegas et al. [18] | All medical imaging, shortcut learning ",
+    "verdict": "supported",
+    "note": "Abstract: 173 papers reviewed, 37 selected for detailed analysis. Only the abstract was read."
+   },
+   {
+    "claim": "A scoping review concluded that most medical imaging studies neither test for no",
+    "verdict": "supported"
+   }
+  ],
+  "notices": "None in Crossref. Publisher landing page not read."
+ },
+ {
+  "ref_no": 19,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s10278-026-02172-y",
+   "https://api.crossref.org/works/10.1007/s10278-026-02172-y"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Crossref lists four authors (Ishii, Edwards, Gelbach, Alexander Jr.), published online 17 Aug 2026, no volume or pages yet.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Ishii et al. [19] | Echocardiography | PRISMA-ScR scoping review, 170",
+    "verdict": "supported"
+   },
+   {
+    "claim": "In echocardiography, explanations were evaluated only qualitatively in 40.4% of ",
+    "verdict": "supported",
+    "note": "Figures match: 40.4% (23/57) of end-to-end model-approach instances and 1.6% (2/122) of multistep upstream model-approach instances were 'qualitative-grounded' only. The source counts model-approach instances, not unique studies, and the 1.6% is for the upstream stage of multistep pipelines."
+   },
+   {
+    "claim": "This agrees with counts from cancer imaging [20] and echocardiography [19], and ",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ },
+ {
+  "ref_no": 20,
+  "opened": [
+   "https://www.jmir.org/2026/1/e80645"
+  ],
+  "biblio": "match",
+  "biblio_notes": "",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The closest in subject covers lung cancer across all modalities, with histopatho",
+    "verdict": "supported"
+   },
+   {
+    "claim": "TABLE ROW: Fotopoulos et al. [20] | Radiological cancer imaging | PRISMA-ScR sco",
+    "verdict": "supported"
+   },
+   {
+    "claim": "In radiological cancer imaging, 48% of 371 studies reported no validation of the",
+    "verdict": "supported"
+   },
+   {
+    "claim": "This agrees with counts from cancer imaging [20] and echocardiography [19], and ",
+    "verdict": "supported"
+   }
+  ],
+  "notices": "None seen (the last 6% of the page text was not read)."
+ },
+ {
+  "ref_no": 21,
+  "opened": [
+   "https://link.springer.com/article/10.1007/s10462-025-11445-x",
+   "https://api.crossref.org/works/10.1007/s10462-025-11445-x"
+  ],
+  "biblio": "match",
+  "biblio_notes": "Authors, title, volume 59, issue 1, article 28 and DOI agree. The article was published online 9 Dec 2025; it sits in volume 59 issue 1, dated January 2026, so the printed year 2026 is the volume year.",
+  "claims": [
+   {
+    "claim": "Explainable AI in medical imaging has been reviewed repeatedly, from general sur",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The closest in subject covers lung cancer across all modalities, with histopatho",
+    "verdict": "partly",
+    "note": "The source text gives one modality count only: histopathology n = 19 (of roughly 44 XAI-applying articles; the total is not stated outright). The modality breakdown is in Fig. 4, which could not be read, and no sentence states that histopathology is the most common modality. Multi-modality coverage (CT, histopathology, chest X-ray, PET-CT, EBUS, cytology) is supported."
+   },
+   {
+    "claim": "TABLE ROW: Koutoulakis et al. [21] | Lung cancer, all modalities | PRISMA-guided",
+    "verdict": "partly",
+    "note": "PRISMA-guided review and method families are supported (LIME is described in the background; no reviewed lung study applying it was seen). 'Histopathology most common' could not be confirmed: The source text gives one modality count only: histopathology n = 19 (of roughly 44 XAI-applying articles; the total is not stated outright). The modality breakdown is in Fig. 4, which could not be read, and no sentence states that histopathology is the most common modality. Multi-modality coverage (CT, histopathology, chest X-ray, PET-CT, EBUS, cytology) is supported."
+   },
+   {
+    "claim": "A review of lung cancer studies found that only six articles compared explanatio",
+    "verdict": "supported"
+   }
+  ],
+  "notices": ""
+ }
+]

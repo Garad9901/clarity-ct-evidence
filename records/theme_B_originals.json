@@ -1,0 +1,114 @@
+[
+ {
+  "authors": [
+   "Selvaraju RR",
+   "Cogswell M",
+   "Das A",
+   "Vedantam R",
+   "Parikh D",
+   "Batra D"
+  ],
+  "authors_complete": true,
+  "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization",
+  "journal": "International Journal of Computer Vision",
+  "journal_abbrev": "Int J Comput Vis",
+  "year": 2020,
+  "online_date": "2019-10-11",
+  "volume": "128",
+  "issue": "2",
+  "pages": "336-359",
+  "doi": "10.1007/s11263-019-01228-7",
+  "url_opened": [
+   "https://link.springer.com/article/10.1007/s11263-019-01228-7",
+   "https://api.crossref.org/works/10.1007/s11263-019-01228-7"
+  ],
+  "pub_type": "journal",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Introduces Grad-CAM, which weights the feature maps of the last convolutional layer by the gradients of a target class score to give a coarse heat map of the image regions behind a prediction. The method needs no architectural change, applies to classification, captioning and visual question answering networks, and is reported to help users judge model reliability.",
+  "use_for": "Essential original: definition of Grad-CAM",
+  "verified_how": "Springer landing page + Crossref record",
+  "flags": "Pre-2025 essential original (journal version of the ICCV 2017 paper)."
+ },
+ {
+  "authors": [
+   "Lundberg SM",
+   "Lee SI"
+  ],
+  "authors_complete": true,
+  "title": "A Unified Approach to Interpreting Model Predictions",
+  "journal": "Advances in Neural Information Processing Systems 30 (NIPS 2017)",
+  "journal_abbrev": null,
+  "year": 2017,
+  "online_date": null,
+  "volume": "30",
+  "issue": null,
+  "pages": null,
+  "doi": null,
+  "url_opened": [
+   "https://papers.nips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Proposes SHAP, a framework that assigns each input feature an importance value for an individual prediction. It shows that a class of additive feature-importance measures has a unique solution with desirable properties and that this class covers six earlier explanation methods.",
+  "use_for": "Essential original: definition of SHAP",
+  "verified_how": "NeurIPS proceedings abstract page",
+  "flags": "Pre-2025 essential original. Page numbers and editors are not shown on the proceedings page; no DOI."
+ },
+ {
+  "authors": [
+   "Ribeiro MT",
+   "Singh S",
+   "Guestrin C"
+  ],
+  "authors_complete": true,
+  "title": "\"Why Should I Trust You?\": Explaining the Predictions of Any Classifier",
+  "journal": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+  "journal_abbrev": null,
+  "year": 2016,
+  "online_date": "2016-08-13",
+  "volume": null,
+  "issue": null,
+  "pages": "1135-1144",
+  "doi": "10.1145/2939672.2939778",
+  "url_opened": [
+   "https://api.crossref.org/works/10.1145/2939672.2939778",
+   "https://arxiv.org/abs/1602.04938"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "Introduces LIME, which explains a single prediction of any classifier by fitting a simple interpretable model in the neighbourhood of that prediction. It adds a submodular selection step to choose a small, non-redundant set of representative explanations and demonstrates the approach on text and image classifiers.",
+  "use_for": "Essential original: definition of LIME",
+  "verified_how": "Crossref record + arXiv abstract page (the ACM page could not be opened)",
+  "flags": "Pre-2025 essential original. Crossref stores the title and subtitle as separate fields; the combined form here follows the arXiv page."
+ },
+ {
+  "authors": [
+   "Sundararajan M",
+   "Taly A",
+   "Yan Q"
+  ],
+  "authors_complete": true,
+  "title": "Axiomatic Attribution for Deep Networks",
+  "journal": "Proceedings of the 34th International Conference on Machine Learning, Proceedings of Machine Learning Research",
+  "journal_abbrev": "PMLR",
+  "year": 2017,
+  "online_date": null,
+  "volume": "70",
+  "issue": null,
+  "pages": "3319-3328",
+  "doi": null,
+  "url_opened": [
+   "https://proceedings.mlr.press/v70/sundararajan17a.html"
+  ],
+  "pub_type": "conference",
+  "is_review": false,
+  "abstract_read": true,
+  "key_finding": "States two axioms that an attribution method should satisfy, sensitivity and implementation invariance, and shows that most earlier methods violate at least one. It proposes Integrated Gradients, which accumulates gradients along a path from a baseline input to the actual input, needs no network modification, and is demonstrated on image, text and chemistry models.",
+  "use_for": "Essential original: definition of Integrated Gradients",
+  "verified_how": "PMLR proceedings page",
+  "flags": "Pre-2025 essential original; no DOI."
+ }
+]

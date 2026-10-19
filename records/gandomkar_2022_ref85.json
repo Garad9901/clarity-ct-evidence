@@ -1,0 +1,25 @@
+{
+ "authors": [
+  "Gandomkar Z",
+  "Khong PL",
+  "Punch A",
+  "Lewis S"
+ ],
+ "authors_complete": true,
+ "title": "Using Occlusion-Based Saliency Maps to Explain an Artificial Intelligence Tool in Lung Cancer Screening: Agreement Between Radiologists, Labels, and Visual Prompts",
+ "journal": "Journal of Digital Imaging",
+ "journal_abbrev": "J Digit Imaging",
+ "year": 2022,
+ "online_date": "2022-04-28",
+ "volume": "35",
+ "issue": "5",
+ "pages": "1164-1175",
+ "doi": "10.1007/s10278-022-00631-w",
+ "url_opened": "https://link.springer.com/article/10.1007/s10278-022-00631-w ; https://researchers.westernsydney.edu.au/en/publications/using-occlusion-based-saliency-maps-to-explain-an-artificial-inte/",
+ "pub_type": "journal",
+ "is_review": false,
+ "abstract_read": true,
+ "key_finding": "36 radiologists described, in LDCT reporting vocabulary, regions highlighted by occlusion-based saliency maps on 20 low-dose CT cases (10 benign, 10 malignant); agreement on the main label in 5 of 41 regions (12%).",
+ "verified_how": "Publisher page and university repository page, 13 Oct 2026; Crossref lookup rate-limited",
+ "flags": "Abstract only; full text not read. Added after the evidence map, while checking the claim that no reader study existed in 2025-2026."
+}

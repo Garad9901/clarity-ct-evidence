@@ -1,0 +1,162 @@
+[
+ {
+  "ref_no": 64,
+  "reference": "64. Cooke LH, Jung M, Brendel JM, et al: RoentMod: a synthetic chest X-ray modification model to identify and correct image interpretation model shortcuts. NPJ Digit Med 9:324, 2026. https://doi.org/10.1038/s41746-026-02497-6",
+  "claims_in_paper": [
+   "On chest radiographs, counterfactual edits validated by radiologists exposed classifiers that relied on unrelated pathology as a shortcut [64]."
+  ]
+ },
+ {
+  "ref_no": 65,
+  "reference": "65. Gamble C, Faghani S, Erickson BJ: Applying Conformal Prediction to a Deep Learning Model for Intracranial Hemorrhage Detection to Improve Trustworthiness. Radiol Artif Intell 7:e240032, 2025. https://doi.org/10.1148/ryai.240032",
+  "claims_in_paper": [
+   "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases on which readers disagreed [65]; conformal risk control on a nodule detector reached 91.4% sensitivity at 2.25 false positives per scan for nodules marked by at least three radiologists [66]; and uncertainty-driven training reduced the calibration error of nodule classifiers by up to 65% [67].",
+   "Alongside the lobar and concept outputs, the design returns similar past cases through prototypes of the lobar descriptors [62] and a prediction set from conformal calibration [65, 66]."
+  ]
+ },
+ {
+  "ref_no": 66,
+  "reference": "66. Hulsman R, Comte V, Bertolini L, Wiesenthal T, Puertas Gallardo A, Ceresa M: Conformal Risk Control for Pulmonary Nodule Detection. Proc Mach Learn Res 266:445-463, 2025. Available at https://proceedings.mlr.press/v266/hulsman25a.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases on which readers disagreed [65]; conformal risk control on a nodule detector reached 91.4% sensitivity at 2.25 false positives per scan for nodules marked by at least three radiologists [66]; and uncertainty-driven training reduced the calibration error of nodule classifiers by up to 65% [67].",
+   "Alongside the lobar and concept outputs, the design returns similar past cases through prototypes of the lobar descriptors [62] and a prediction set from conformal calibration [65, 66]."
+  ]
+ },
+ {
+  "ref_no": 67,
+  "reference": "67. Tripodi G, De Rosis A, Rezaeiravesh S: Uncertainty-Driven Training for Three-Dimensional Calibrated Lung Nodule Classification. Lect Notes Comput Sci 17092:260-271, 2027. https://doi.org/10.1007/978-3-032-38407-2_21",
+  "claims_in_paper": [
+   "Conformal prediction on a head CT haemorrhage detector flagged 143 of 150 cases on which readers disagreed [65]; conformal risk control on a nodule detector reached 91.4% sensitivity at 2.25 false positives per scan for nodules marked by at least three radiologists [66]; and uncertainty-driven training reduced the calibration error of nodule classifiers by up to 65% [67]."
+  ]
+ },
+ {
+  "ref_no": 68,
+  "reference": "68. Blankemeier L, Kumar A, Cohen JP, et al: Merlin: a computed tomography vision–language foundation model and dataset. Nature 652:1318-1328, 2026. https://doi.org/10.1038/s41586-026-10181-8",
+  "claims_in_paper": [
+   "A CT vision-language model trained on abdominal scans with diagnosis codes and reports likewise offers generated text and organ segmentation, without grounding at the level of a finding [68]."
+  ]
+ },
+ {
+  "ref_no": 69,
+  "reference": "69. Zhang X, Wu C, Zhao Z, et al: Development of a large-scale grounded vision language dataset for chest CT analysis. Sci Data 12:1636, 2025. https://doi.org/10.1038/s41597-025-05922-9",
+  "claims_in_paper": [
+   "RadGenome-Chest CT adds to CT-RATE segmentation masks for 197 region categories, 665 thousand grounded reports and 1.2 million grounded question-answer pairs, all built automatically [69].",
+   "Public data now pair scans with reports [23], with region-level grounding [69], and, in a preprint, with lesion-level segmentations of reported findings [70].",
+   "The first stage is implementation on public data: CT-RATE for multi-abnormality prediction with reports [23], LIDC-IDRI for nodule attributes [55], and the grounded datasets for region-level and lesion-level evidence [69, 70], with the lobe masks checked on difficult anatomy before use [61]."
+  ]
+ },
+ {
+  "ref_no": 70,
+  "reference": "70. Baharoon M, Luo L, Moritz M, et al: ReXGroundingCT: A 3D Chest CT Dataset for Segmentation of Findings from Free-Text Reports. arXiv:2507.22030, 2025 (preprint). https://arxiv.org/abs/2507.22030",
+  "claims_in_paper": [
+   "A preprint describes 3,142 chest CT scans in which 8,028 report findings are linked to three-dimensional segmentations, with test sets annotated by radiologists [70].",
+   "Public data now pair scans with reports [23], with region-level grounding [69], and, in a preprint, with lesion-level segmentations of reported findings [70].",
+   "The first stage is implementation on public data: CT-RATE for multi-abnormality prediction with reports [23], LIDC-IDRI for nodule attributes [55], and the grounded datasets for region-level and lesion-level evidence [69, 70], with the lobe masks checked on difficult anatomy before use [61]."
+  ]
+ },
+ {
+  "ref_no": 71,
+  "reference": "71. Lim WH, Lee JY, Lee JH, Kim S, Kim H: Comparative evaluation of generative AI models for chest radiograph report generation in the emergency department. Eur Radiol 36:7911-7924, 2026. https://doi.org/10.1007/s00330-026-12648-8",
+  "claims_in_paper": [
+   "In 478 emergency patients, with same-day CT as the reference, four of five models that generate chest radiograph reports produced hallucinated findings in 5.4% to 17.4% of reports [71]."
+  ]
+ },
+ {
+  "ref_no": 72,
+  "reference": "72. Moll J, Graf M, Lemke T, et al: Evaluating Reasoning Faithfulness in Medical Vision-Language Models using Multimodal Perturbations. Proc Mach Learn Res 297:424-448, 2026. Available at https://proceedings.mlr.press/v297/moll26a.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "A perturbation test of step-by-step rationales in six vision-language models found that answer accuracy and explanation quality diverged, and that mentioning a cue did not mean the reasoning was grounded in it [72]."
+  ]
+ },
+ {
+  "ref_no": 73,
+  "reference": "73. Spitzer P, Hendriks D, Rudolph J, et al: The effect of medical explanations from large language models on diagnostic accuracy in radiology. NPJ Digit Med 9:333, 2026. https://doi.org/10.1038/s41746-026-02619-0",
+  "claims_in_paper": [
+   "In a randomised vignette experiment with 101 radiologists, in which a text-only language model was given the case descriptions, a step-by-step explanation raised diagnostic accuracy by 12.2 percentage points over no support [73]."
+  ]
+ },
+ {
+  "ref_no": 74,
+  "reference": "74. Adebayo J, Gilmer J, Muelly M, Goodfellow I, Hardt M, Kim B: Sanity Checks for Saliency Maps. Adv Neural Inf Process Syst 31, 2018. Available at https://proceedings.neurips.cc/paper/2018/hash/294a8ed24b1ad22ec2e7efea049b8737-Abstract.html. Accessed 10 October 2026",
+  "claims_in_paper": [
+   "Randomisation tests showed that some saliency methods produce maps that barely change when the parameters of the model are randomised [74], and on chest radiographs each of eight saliency methods failed at least one of four criteria of trustworthiness and localised abnormalities less well than dedicated networks [75].",
+   "The second stage is computational evaluation under a fixed protocol: the four components of CMXI for the proposed design and for standard attribution baselines, randomisation checks [74], a declared masking strategy [78], concept accuracy against radiologist labels, and the leakage gap."
+  ]
+ },
+ {
+  "ref_no": 75,
+  "reference": "75. Arun N, Gaw N, Singh P, et al: Assessing the Trustworthiness of Saliency Maps for Localizing Abnormalities in Medical Imaging. Radiol Artif Intell 3, 2021. https://doi.org/10.1148/ryai.2021200267",
+  "claims_in_paper": [
+   "Randomisation tests showed that some saliency methods produce maps that barely change when the parameters of the model are randomised [74], and on chest radiographs each of eight saliency methods failed at least one of four criteria of trustworthiness and localised abnormalities less well than dedicated networks [75]."
+  ]
+ },
+ {
+  "ref_no": 76,
+  "reference": "76. Lago MA, Zamzmi G, Eich B, Delfino JG: Evaluating Explainability: A Framework for Systematic Assessment of Explainable AI Features in Medical Imaging. Bioengineering (Basel) 13:111, 2026. https://doi.org/10.3390/bioengineering13010111",
+  "claims_in_paper": [
+   "Authors from the United States Food and Drug Administration set out four criteria for heat maps, namely consistency, plausibility, fidelity and usefulness, with a reporting card [76], and an educational review for radiologists distinguishes plausibility from faithfulness and stresses that explanations are tools for oversight, not proof of correctness [14].",
+   "Faithfulness and stability correspond to the fidelity and consistency criteria proposed for heat maps [76].",
+   "In the terms of the four criteria proposed for heat maps it does not measure usefulness [76], and guidance asks that explanations be evaluated with end users as well as computationally [9]."
+  ]
+ },
+ {
+  "ref_no": 77,
+  "reference": "77. Repetto S, Maljkovic I, Lotto M, Cinà AE, Vascon S, Roli F: Evaluating the robustness of explainable AI in medical image recognition under natural and adversarial data corruption. Mach Learn 115:4, 2026. https://doi.org/10.1007/s10994-025-06919-6",
+  "claims_in_paper": [
+   "Many of ten explanation methods changed under perturbations that left the predicted class unchanged, and none was best on every stability metric [77]."
+  ]
+ },
+ {
+  "ref_no": 78,
+  "reference": "78. Poolpol P, Detjen HHJ, Petersen E: Faithful Faithfulness Evaluations: Challenges & Pitfalls Learned from a Breast MRI Case Study. arXiv:2609.25978, 2026 (preprint). https://arxiv.org/abs/2609.25978",
+  "claims_in_paper": [
+   "In a preprint on breast magnetic resonance imaging, the ranking of seven saliency methods by deletion and insertion scores changed with the masking strategy [78].",
+   "Removal of voxels should use replacement by healthy tissue from the same lobe and not zeroing, because rankings of methods by deletion and insertion are sensitive to the masking strategy [78].",
+   "The second stage is computational evaluation under a fixed protocol: the four components of CMXI for the proposed design and for standard attribution baselines, randomisation checks [74], a declared masking strategy [78], concept accuracy against radiologist labels, and the leakage gap."
+  ]
+ },
+ {
+  "ref_no": 79,
+  "reference": "79. Jelitzki J, Reichenbach A, Windberger A: Decision processes in 3D structural MRI schizophrenia classification evaluated with saliency maps. Sci Rep 16:18362, 2026. https://doi.org/10.1038/s41598-026-57667-z",
+  "claims_in_paper": [
+   "Among seven brain magnetic resonance models with similar accuracy, only two based their decisions on plausible structure according to Grad-CAM [79]."
+  ]
+ },
+ {
+  "ref_no": 80,
+  "reference": "80. Sourget T, Hestbek-Møller M, Jiménez-Sánchez A, Xu JJ, Cheplygina V: Mask of Truth: Model Sensitivity to Unexpected Regions of Medical Images. J Imaging Inform Med 39:767-784, 2026. https://doi.org/10.1007/s10278-025-01531-5",
+  "claims_in_paper": [
+   "Explanations have also exposed shortcut learning: chest radiograph classifiers stayed well above chance with the lungs masked out [80], and the errors of a COVID-19 detector were traced to text-like marks on the images [81]."
+  ]
+ },
+ {
+  "ref_no": 81,
+  "reference": "81. Kauffmann J, Dippel J, Ruff L, Samek W, Müller KR, Montavon G: Explainable AI reveals Clever Hans effects in unsupervised learning models. Nat Mach Intell 7:412-422, 2025. https://doi.org/10.1038/s42256-025-01000-2",
+  "claims_in_paper": [
+   "Explanations have also exposed shortcut learning: chest radiograph classifiers stayed well above chance with the lungs masked out [80], and the errors of a COVID-19 detector were traced to text-like marks on the images [81]."
+  ]
+ },
+ {
+  "ref_no": 82,
+  "reference": "82. Pesapane F, Latronico A, Abbate F, et al: Evaluating cognitive biases in AI-assisted mammography interpretation: a simulation reader study of explainable AI across radiologist experience levels. Eur Radiol 36:7639-7650, 2026. https://doi.org/10.1007/s00330-026-12666-6",
+  "claims_in_paper": [
+   "In mammography, heat maps reduced automation bias from 36.1% to 17.8% of deliberately manipulated readings among six radiologists [82]; yet region prompts from a commercial tool were associated with a fall in reader sensitivity from 71% to 39% for cancers that the tool had missed [83].",
+   "Attribute explanations tended to lower accuracy when the model was wrong [38], region prompts were associated with missed cancers when the tool missed them [83], and heat maps reduced but did not remove automation bias [82]."
+  ]
+ },
+ {
+  "ref_no": 83,
+  "reference": "83. Taib AG, Partridge GJW, Phillips P, et al: Automation Bias in Action: Eye Tracking of Humans Reading Screening Mammograms with and without AI Prompts. Radiology 320:e252590, 2026. https://doi.org/10.1148/radiol.252590",
+  "claims_in_paper": [
+   "In mammography, heat maps reduced automation bias from 36.1% to 17.8% of deliberately manipulated readings among six radiologists [82]; yet region prompts from a commercial tool were associated with a fall in reader sensitivity from 71% to 39% for cancers that the tool had missed [83].",
+   "Attribute explanations tended to lower accuracy when the model was wrong [38], region prompts were associated with missed cancers when the tool missed them [83], and heat maps reduced but did not remove automation bias [82]."
+  ]
+ },
+ {
+  "ref_no": 84,
+  "reference": "84. Chanda T, Haggenmueller S, Bucher TC, et al: Dermatologist-like explainable AI enhances melanoma diagnosis accuracy: eye-tracking study. Nat Commun 16:4739, 2025. https://doi.org/10.1038/s41467-025-59532-5",
+  "claims_in_paper": [
+   "Among 76 dermatologists, balanced accuracy rose from 79.9% with a plain prediction to 82.7% with an explainable system [84]."
+  ]
+ }
+]
