@@ -27,3 +27,4 @@ Known provenance gaps (fix before Phase 10):
 2. Fig. 1, Fig. 3 and the graphical abstract contain typed-in numbers; Phase 9 scripts must read records/ and charting/ instead.
 3. The search log (queries, dates, hit counts) was not kept; only opened records were recorded.
 4. The citation check stored verdicts but no supporting quotes; Phase 6 redoes it with quotes.
+evidence-v1.0 = a9101644ebb8d6feca0f80523e5796f8b36c5e98
